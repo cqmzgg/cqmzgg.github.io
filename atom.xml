@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cqmzgg.github.io</id>
+    <title>人生三乐</title>
+    <updated>2023-10-13T08:10:05.942Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://cqmzgg.github.io"/>
+    <link rel="self" href="https://cqmzgg.github.io/atom.xml"/>
+    <subtitle>宇宙延长线</subtitle>
+    <logo>https://cqmzgg.github.io/images/avatar.png</logo>
+    <icon>https://cqmzgg.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 人生三乐</rights>
+    <entry>
+        <title type="html"><![CDATA[国庆长假安排]]></title>
+        <id>https://cqmzgg.github.io/post/guo-qing-chang-jia-an-pai/</id>
+        <link href="https://cqmzgg.github.io/post/guo-qing-chang-jia-an-pai/">
+        </link>
+        <updated>2023-10-01T08:46:22.000Z</updated>
+        <summary type="html"><![CDATA[<p>8天的长假，我值班2天，剩下的6天终于可以好好休息休息啦！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>8天的长假，我值班2天，剩下的6天终于可以好好休息休息啦！</p>
+<!--more-->
+<ul>
+<li>​		但这6天我也不能闲着，因为我要去医院照顾生病的爸爸，还要送孩子去补课。中考的压力太大了，初三的学习真的很紧张。</li>
+<li>​		好在后面4天老婆也休息了，我们一家人终于可以团聚在一起，享受一下难得的休闲时光。</li>
+<li>​		这几天我打算和老婆孩子一起做一些有意义的事情，比如看一场电影，去公园或者郊外走走，一起做一顿丰盛的晚餐，还可以玩一些游戏，让这个假期变得更加充实和有意义！</li>
+</ul>
+<p>​		<strong>虽然生活中会有很多困难和挑战，但是只要我们一家人在一起，共同面对，就没有什么过不去的坎儿！希望我们一家人能够度过一个愉快而难忘的假期！加油哦~💪💪💪</strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JSDelivr CDN 加速]]></title>
+        <id>https://cqmzgg.github.io/post/jsdelivr-cdn-jia-su/</id>
+        <link href="https://cqmzgg.github.io/post/jsdelivr-cdn-jia-su/">
+        </link>
+        <updated>2023-09-30T02:44:51.000Z</updated>
+        <summary type="html"><![CDATA[<p>JSDelivr 是由 @Cloudflare 提供的免费开源公共 CDN。默认的提供的节点是 cdn.jsdelivr.net，但该节点在国内几乎不可用，需要使用可用性高的节点作为替代。<br>
+以下是一些常用的 JSDelivr 节点：</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>JSDelivr 是由 @Cloudflare 提供的免费开源公共 CDN。默认的提供的节点是 cdn.jsdelivr.net，但该节点在国内几乎不可用，需要使用可用性高的节点作为替代。<br>
+以下是一些常用的 JSDelivr 节点：</p>
+<!-- more -->
+<ul>
+<li>gcore.jsdelivr.net: Gcore 节点，可用性高</li>
+<li>testingcf.jsdelivr.net: Cloudflare 节点，可用性高</li>
+<li>quantil.jsdelivr.net: Quantil 节点，可用性尚可</li>
+<li>fastly.jsdelivr.net: Fastly 节点，可用性尚可</li>
+<li>originfastly.jsdelivr.net: Fastly 节点，可用性低</li>
+<li>test1.jsdelivr.net: Cloudflare 节点，可用性低</li>
+<li>cdn.jsdelivr.net: 通用节点，可用性低</li>
+</ul>
+<p>此外，还有第三方提供的 jsdelivr 节点，如 jsd.onmicrosoft.cn（国内 CDN）和 jsdelivr.b-cdn.net（台湾 CDN），国内速度很快，但稳定性不清楚。<br>
+对于 npm 节点，unpkg.com 在国内几乎不可用，可用以下国内 cdn 节点替代：</p>
+<ul>
+<li>npm.elemecdn.com</li>
+<li>npm.onmicrosoft.cn</li>
+<li>unpkg.zhimg.com</li>
+<li>npm.akass.cn</li>
+<li>cdn.chuqis.com/npm/</li>
+<li>code.bdstatic.com/npm</li>
+</ul>
+<p>这些节点同步速度不同，但都需要准确的版本号。<br>
+总的来说，选择合适的 JSDelivr 节点可以提高项目在国内的可用性。如果您需要更多帮助，请随时告诉我。<br>
+#JSDelivr CDN 加速</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大梦中的无奈]]></title>
+        <id>https://cqmzgg.github.io/post/da-meng-zhong-de-wu-nai/</id>
+        <link href="https://cqmzgg.github.io/post/da-meng-zhong-de-wu-nai/">
+        </link>
+        <updated>2023-09-28T08:37:48.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="大梦中的无奈">大梦中的无奈</h1>
+<p>最近，我一直在听《大梦》，这首歌唱尽了人间的无奈。歌词中无数个“怎么办”挥之不去，让我感慨万千。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="大梦中的无奈">大梦中的无奈</h1>
+<p>最近，我一直在听《大梦》，这首歌唱尽了人间的无奈。歌词中无数个“怎么办”挥之不去，让我感慨万千。</p>
+<!-- more -->
+<h2 id="正文">正文</h2>
+<p>现实生活中，我遇到了许多难题。</p>
+<ul>
+<li>爸爸突发脑梗，卧床不起；</li>
+<li>妻子工作忙碌，对我越来越冷漠；</li>
+<li>孩子叛逆期，经常与我顶嘴。</li>
+</ul>
+<p>面对这些问题，我感到非常无奈。</p>
+<h3 id="爸爸的病情">爸爸的病情</h3>
+<p>爸爸是家里的顶梁柱，现在却卧床不起，我不知道该怎么办。每天都要去医院照顾他，还要照顾孩子和工作，我感到非常疲惫。</p>
+<h3 id="妻子的冷漠">妻子的冷漠</h3>
+<p>以前，我们感情很好，现在却越来越冷淡。她经常加班，很少有时间陪我和孩子。我不知道她心里在想什么，我感到非常孤独。</p>
+<h3 id="孩子的叛逆">孩子的叛逆</h3>
+<p>他经常与我顶嘴，不听我的管教。我不知道该怎么教育他，我感到非常焦虑。</p>
+<p>这些问题让我感到非常压抑，我不知道该怎么办。我经常在夜里睡不着觉，想着这些问题，感到非常心酸。</p>
+<h2 id="结尾">结尾</h2>
+<p>我不知道大梦中的无奈何时才能结束。我希望爸爸能早日康复，妻子能多陪陪我和孩子，孩子能变得懂事。我希望这一切都是一场梦，梦醒之后，一切都恢复正常。</p>
+<h2 id="思考">思考</h2>
+<p>《大梦》是一首悲伤的歌，但也给了我希望。歌词中唱道：“放不下 怎圆满”这句话让我明白，人生就像一场梦，要珍惜眼前的一切。我会努力面对现实中的困难，希望未来一切都会好起来。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2083989384&auto=1&height=66"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[零跑 T03 换后减震器无效]]></title>
+        <id>https://cqmzgg.github.io/post/ling-pao-t03-huan-hou-jian-zhen-qi-wu-xiao/</id>
+        <link href="https://cqmzgg.github.io/post/ling-pao-t03-huan-hou-jian-zhen-qi-wu-xiao/">
+        </link>
+        <updated>2023-09-21T08:55:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近，我的零跑 T03 后排过坑时感觉很颠簸，于是我在京东上买了两根后减震器进行更换。然而，换上新减震器后，并没有明显的改善效果，让我有些失望。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近，我的零跑 T03 后排过坑时感觉很颠簸，于是我在京东上买了两根后减震器进行更换。然而，换上新减震器后，并没有明显的改善效果，让我有些失望。</p>
+<!-- more -->
+<p>在网上的车主群里，不少人推荐更换减震器来改善车辆的舒适性。我也买来请师傅进行了更换，但实际效果并不明显。可能是选择的减震器不适合我的车型。<br>
+总之，对于想要通过更换减震器来改善车辆舒适性的车主，建议先了解自己的车型和问题，选择适合的减震器，并在专业人士的指导下进行更换。不要盲目跟风，以免浪费时间和金钱。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓APK]]></title>
+        <id>https://cqmzgg.github.io/post/an-zhuo-shou-cang/</id>
+        <link href="https://cqmzgg.github.io/post/an-zhuo-shou-cang/">
+        </link>
+        <updated>2023-09-13T07:54:28.000Z</updated>
+        <content type="html"><![CDATA[<h4 id="1-手机apk">1. 手机APK</h4>
+<p><strong>网站：</strong><a href="https://www.ghxi.com/category/all/android">果核剥壳</a>    <a href="https://www.423down.com/apk">423down</a>  <a href="https://www.fy6b.com/category/all/android">枫音应用</a> </p>
+<p><strong>网盘：</strong> <a href="https://www.lanzoui.com/u/yoyodadada">yoyodadada</a>	  <a href="https://www.lanzoui.com/b281858">黑科技玩机</a>	   <a href="https://www.lanzoui.com/b133841">兜兜</a> </p>
+<h4 id="2-tv-apk">2. TV  APK</h4>
+<p><strong>网站：</strong><a href="https://www.sharerw.com/a/jxtv/">分享者</a>	  <a href="https://www.fenxm.com/tv">分享迷</a>  <a href="https://www.kacao.net/androidtv">小宇资源</a>   	<a href="https://57cool.cool/">57号同学</a>  <a href="https://www.pcoof.com/tv">PC软件库</a></p>
+<p><a href="https://iptvindex.com/">iptv</a>   <a href="https://www.appmiu.com/live">app喵</a>   <a href="https://xzbao.net/">下载宝</a>  <a href="https://search.ymck.me/">猫影仓库</a></p>
+<p><strong>网盘：</strong><a href="https://www.123pan.com/s/Mn6UVv-etPjv">pcoof网盘</a>   <a href="https://php.tv444.repl.co/">影视TV</a> </p>
+<p><strong>直播源：</strong> <a href="https://epg.pw/test_channel_page.html">epg</a>   <a href="https://live.fanmingming.com/">live</a>   <a href="https://owen2000wy.github.io/">owen2000</a></p>
+<h4 id="3-软件市场">3. 软件市场</h4>
+<ul>
+<li><a href="http://ikuwan.net/">酷玩社区</a> -- <a href="https://lanzoui.com/imQQ90zqwkih">APK</a></li>
+<li>奇妙应用 -- <a href="https://lanzoui.com/s/MagicalApp">APK</a></li>
+<li><a href="https://appshare.muge.info/">AppShare</a> --<a href="https://wwor.lanzoue.com/ibzu614fkt7c">APK</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[脑梗真可怕]]></title>
+        <id>https://cqmzgg.github.io/post/nao-geng-zhen-ke-pa/</id>
+        <link href="https://cqmzgg.github.io/post/nao-geng-zhen-ke-pa/">
+        </link>
+        <updated>2023-09-13T02:00:58.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>今天真是糟糕的一天，爸爸的老毛病又犯了。上周五他在镇医院住院，情况有所缓解，但今天早上突然出</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>今天真是糟糕的一天，爸爸的老毛病又犯了。上周五他在镇医院住院，情况有所缓解，但今天早上突然出</strong></p>
+<!-- more -->
+<p><strong>现了吐词不清的症状。我们赶紧把他送到了人和医院，希望能够进行溶栓治疗。</strong></p>
+<p><strong>我还在上班，不能亲自陪伴爸爸，只能通过电话了解情况。幸好老婆今天不上班，她一直在医院里陪伴着爸爸。妹妹也帮忙联系了车子，让我们能够尽快赶到医院，并且还带了很多住院的物品。现在我们正在等待医生的诊断结果，希望爸爸能够尽快康复。</strong></p>
+<p><strong>在这个上有老、下有小的年纪，我们真的不能有任何闪失。希望爸爸能够坚强，我们也会尽力照顾他，让他早日康复。</strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[同学聚会]]></title>
+        <id>https://cqmzgg.github.io/post/9-yue-9-ri-tong-xue-hui/</id>
+        <link href="https://cqmzgg.github.io/post/9-yue-9-ri-tong-xue-hui/">
+        </link>
+        <updated>2023-09-10T06:49:21.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="开场白">开场白</h2>
+<p>在这个特殊的日子里，我们班 1997 年初中毕业的同学们在晏老师的组织下举行了一场别开生面的同学会。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="开场白">开场白</h2>
+<p>在这个特殊的日子里，我们班 1997 年初中毕业的同学们在晏老师的组织下举行了一场别开生面的同学会。</p>
+<!-- more -->
+<p>时光飞逝，大家都已经步入了而立之年，但是同学之间的情谊却依旧那么真挚。</p>
+<figure data-type="image" tabindex="1"><img src="https://3o.hk/images/2023/09/11/2023.jpg" alt="2023.jpg" loading="lazy"></figure>
+<h2 id="重温校园时光">重温校园时光</h2>
+<p>在这场同学会上，我们聊起了当年的校园生活，回忆起了那些青涩的时光。我们分享了自己的近况，交流了工作和生活中的点滴。</p>
+<figure data-type="image" tabindex="2"><img src="https://3o.hk/images/2023/09/11/1.jpg" alt="1.jpg" loading="lazy"></figure>
+<h2 id="与老师的交流">与老师的交流</h2>
+<p>最令人感动的是晏老师依然那么和蔼可亲，她跟我们分享了她的教学经验，鼓励我们要继续努力，为社会做出更大的贡献。其他老师也对我们表示了关心和祝福，让我们感受到了老师们对我们的爱和期望。</p>
+<figure data-type="image" tabindex="3"><img src="https://3o.hk/images/2023/09/11/3.jpg" alt="3.jpg" loading="lazy"></figure>
+<h2 id="结语">结语</h2>
+<p>同学会结束后，我们都感慨万分。我们深感时光的宝贵，也明白了友情的珍贵。我们约定，以后要经常联系，保持这份难得的情谊。</p>
+<figure data-type="image" tabindex="4"><img src="https://3o.hk/images/2023/09/11/11.jpg" alt="11.jpg" loading="lazy"></figure>
+<h2 id="这次同学会让我们重温了青春的美好也让我们感受到了岁月的无情-但是我们相信只要我们心怀感恩珍惜当下就一定能够创造出更加美好的未来">这次同学会，让我们重温了青春的美好，也让我们感受到了岁月的无情。但是，我们相信，只要我们心怀感恩，珍惜当下，就一定能够创造出更加美好的未来。</h2>
+<p>👋🏻Hi 同学们，猜猜我昨天去哪了？🤩🤩</p>
+<p>👉🏻没错！就是和初中同学聚会啦！👈🏻</p>
+<p>👉🏻不得不说，毕业这么多年再见到大家真的好开心啊！😆😆</p>
+<p>👉🏻而且我们还和当年的班主任晏老师一起聊了好多，回忆起了当年的点点滴滴，真的是太感慨了！😭😭</p>
+<p>👉🏻晏老师还是那么漂亮有气质，时间在她身上仿佛没有留下痕迹，真想再回到初中，再做她的学生啊！😍😍</p>
+<p>👉🏻感觉时间过得好快，一下子就到了凌晨，真的好舍不得大家啊！😢😢</p>
+<p>#初中同学聚会  #晏老师 #回忆杀 #开心</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[孩子要住校了]]></title>
+        <id>https://cqmzgg.github.io/post/hai-zi-yao-zhu-xiao-liao/</id>
+        <link href="https://cqmzgg.github.io/post/hai-zi-yao-zhu-xiao-liao/">
+        </link>
+        <updated>2023-08-28T03:33:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>初二年级期末考试，成了分班考，现在分班了，新的老师，同学，主要的是要住校了。她自己要求住校。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>初二年级期末考试，成了分班考，现在分班了，新的老师，同学，主要的是要住校了。她自己要求住校。</p>
+<!-- more -->
+<blockquote>
+<p>5公里不到的路程，我们可以接送的，<br>
+&quot;不，我要去住校的！&quot;<br>
+不愿意在家了，好吧！自力更生去。<br>
+<img src="https://tuchuangs.com/imgs/2023/08/28/75f115ce891464fb.jpg" alt="美湖" loading="lazy"></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown测试]]></title>
+        <id>https://cqmzgg.github.io/post/test/</id>
+        <link href="https://cqmzgg.github.io/post/test/">
+        </link>
+        <updated>2023-08-25T04:59:58.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="mdtu-简介">MDTU 简介</h1>
+<p>Markdown Devtool，简称 <code>MDTU</code>，中文名 <code>码途编辑器</code>。是一款基于 <a href="https://github.com/bytedance/bytemd">bytemd</a> 由山月开发的支持微信样式的 Markdown 编辑器。</p>
+<h2 id="列表">列表</h2>
+<p><strong>有序列表</strong></p>
+<ol>
+<li>天干
+<ol>
+<li>甲</li>
+<li>乙</li>
+<li>丙</li>
+<li>丁</li>
+</ol>
+</li>
+<li>地支
+<ol>
+<li>子</li>
+<li>丑</li>
+<li>寅</li>
+<li>卯</li>
+</ol>
+</li>
+</ol>
+<p><strong>无序列表</strong></p>
+<ul>
+<li>天干
+<ul>
+<li>甲</li>
+<li>乙</li>
+<li>丙</li>
+<li>丁</li>
+</ul>
+</li>
+<li>地支
+<ul>
+<li>子</li>
+<li>丑</li>
+<li>寅</li>
+<li>卯</li>
+</ul>
+</li>
+</ul>
+<h2 id="引用">引用</h2>
+<blockquote>
+<p>欲穷千里目，更上一层楼</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>举头望明月，低头思故乡</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>今春看又过，何日是归年</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="代码">代码</h2>
+<p><strong>内联代码</strong></p>
+<p><code>import</code></p>
+<p><strong>代码段</strong></p>
+<pre><code class="language-js">// 如何实现一个防抖函数
+function debounce (f, wait) {
+  let timer
+  return (...args) =&gt; {
+    clearTimeout(timer)
+    timer = setTimeout(() =&gt; f(...args), wait)
+  }
+}
+</code></pre>
+<h2 id="标题">标题</h2>
+<p>以下是关于标题的样式</p>
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h2 id="主题">主题</h2>
+<p>多主题被我开源在了 Github 仓库: <a href="https://github.com/shfshanyue/markdown-theme">markdown-theme</a>。</p>
+<table>
+<thead>
+<tr>
+<th>Theme</th>
+<th>中文</th>
+<th>Author</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>github</td>
+<td>-</td>
+<td><a href="https://github.com/sindresorhus/github-markdown-css">sindresorhus/github-markdown-css</a></td>
+<td><a href="https://markdown-theme.vercel.app/#github">Preview</a></td>
+</tr>
+<tr>
+<td>shanchui</td>
+<td>山吹</td>
+<td><a href="https://github.com/elyhg">#66CCFF</a></td>
+<td><a href="https://markdown-theme.vercel.app/#shanchui">Preview</a></td>
+</tr>
+<tr>
+<td>shanyue</td>
+<td>山月</td>
+<td><a href="https://github.com/shfshanyue">shanyue</a></td>
+<td><a href="https://npm.devtool.tech/lodash">Preview</a></td>
+</tr>
+<tr>
+<td>condensed-night-purple</td>
+<td>凝夜紫</td>
+<td><a href="https://github.com/Geekhyt">童欧巴</a></td>
+<td><a href="https://markdown-theme.vercel.app/#condensed-night-purple">Preview</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="外链">外链</h2>
+<p>这里是<a href="https://shanyue.tech">山月的博客</a>，这里是山月进行了多年面试总结的<a href="https://q.shanyue.tech">前端面试题</a>。</p>
+<p>您可以点击编辑器右上角进行<strong>微信外链转脚注</strong>与<strong>微信外链转二维码</strong>，并点击右上角微信图标进行复制。</p>
+<p>这里是<a href="shanyue.tech">山月的博客 (不显示二维码)</a>，这里是山月进行了多年面试总结的<a href="q.shanyue.tech">前端面试题 (不显示二维码)</a>。</p>
+<p>如果链接地址不是以 <code>http</code> 开头，则不会显示它的二维码。</p>
+<h2 id="url-to-markdown">URL to Markdown</h2>
+<p>您可以点击 MDTU 编辑器右上角<strong>链接采集按钮</strong>，输入 URL 回车确认可从 URL 中获取 Markdown。</p>
+<figure data-type="image" tabindex="1"><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/23487fbd375e42c8b1ac6410c89fb656~tplv-k3u1fbpfcp-watermark.image" alt="链接采集" loading="lazy"></figure>
+<h2 id="自动编号-插入目录-插入导图">自动编号、插入目录、插入导图</h2>
+<p>您可以点击 MDTU 编辑器左上角<strong>自动编号</strong>，将会对一级标题、二级标题、三级标题进行自动编号。</p>
+<h2 id="使用模板">使用模板</h2>
+<p>您可以点击 MDTU 编辑器 <code>使用模板 -&gt; 管理模板</code> 按钮，配置自己的模板。</p>
+<p>使用占位符 <code>{{ content }}</code> 代表正文内容。</p>
+<h2 id="方格背景">方格背景</h2>
+<p>您可以点击 MDTU 编辑器 <code>UI -&gt; 方格背景</code>，将会对该主题添加上方格背景。</p>
+<h2 id="赞赏">赞赏</h2>
+<p>如果该工具对你有所帮助，可以请我喝一瓶<s>农夫山泉</s>冰露 (别人说农夫山泉太奢侈，这里改成冰露吧)</p>
+<figure data-type="image" tabindex="2"><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/263bac43ead842bab0efbf6a431f4e32~tplv-k3u1fbpfcp-watermark.image" alt="请我喝一瓶冰露" loading="lazy"></figure>
+<h2 id="交流">交流</h2>
+<p>欢迎扫码添加我的微信，加入 MDTU 编辑器交流群</p>
+<figure data-type="image" tabindex="3"><img src="https://shanyue.tech/wechat.jpeg" alt="shanyue94" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[李跳跳停更了]]></title>
+        <id>https://cqmzgg.github.io/post/li-tiao-tiao-ting-geng-liao/</id>
+        <link href="https://cqmzgg.github.io/post/li-tiao-tiao-ting-geng-liao/">
+        </link>
+        <updated>2023-08-24T08:26:34.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="国内的环境无力吐槽了">国内的环境无力吐槽了，</h2>
+<p>好消息是有更多的跳开屏APP出来了。</p>
+]]></content>
+    </entry>
+</feed>

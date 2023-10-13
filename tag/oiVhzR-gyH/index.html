@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="宇宙延长线">
+<meta name="theme-color" content="#000">
+<title>人生三乐</title>
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/favicon.ico?v=1697184602811">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/media/css/gemini.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/media/fonts/font-awesome.css">
+<link
+  href="//fonts.loli.net/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/media/hljs/styles/androidstudio.css"
+  rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/styles/main.css">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/media/js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="gemini">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>人生三乐</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">宇宙延长线</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_blank">
+                  <i class="fa fa-globe"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives" target="_self">
+                  <i class="fa fa-globe"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/fav" target="_blank">
+                  <i class="fa fa-globe"></i> 收藏
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags" target="_self">
+                  <i class="fa fa-globe"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about" target="_self">
+                  <i class="fa fa-globe"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout  gemini">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/images/avatar.png"/>
+    <p class="site-author-name">三乐人生</p>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">10</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">4</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://cqmzgg.github.io/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'gemini';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box tag-line box-shadow-wrapper">
+          <section class="section tags-section posts-expand bg-color">
+            <div class="padding-wrapper">
+  <div class="tag-timeline-box">
+    <div class="tag-timeline-wrapper">
+      <div class="tag-timeline-title">
+        <h2>
+          回忆杀
+          <small class="language" data-lan="tag">标签</small>
+        </h2>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://cqmzgg.github.io/post/9-yue-9-ri-tong-xue-hui/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              09-10
+              <small>同学聚会</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <center id="runTimeBox">
+      已运行:<span id="run_time"></span>
+    </center>
+    <span id="busuanzi_container_site_pv">浏览数:<span id="busuanzi_value_site_pv"></span> 次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">访客数:<span id="busuanzi_value_site_uv"></span> 人</span>
+
+    <script>
+      BirthDay = new Date('');
+      if (BirthDay.getTime()) {
+        function runTime() {
+          str = "";
+          today = new Date();
+          timeold = today.getTime() - BirthDay.getTime();
+          msPerDay = 24 * 60 * 60 * 1000;
+          e_daysold = timeold / msPerDay;
+          daysold = Math.floor(e_daysold);
+          str += daysold + "天";
+          return str;
+        }
+        setInterval(function () {
+          $("#run_time").html(runTime());
+        }, 1000);
+      } else {
+        document.querySelector('.footer').removeChild(document.querySelector('#runTimeBox'));
+      }
+    </script>
+    <div class="poweredby">
+      
+    </div>
+  </footer>
+  
+    
+        <div class="gemini back-to-top" id="back_to_top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span class="scrollpercent"> <span id="back_to_top_text">0</span>% </span>
+            
+        </div>
+        
+                  
+                        
+</div>
+<script>
+  let sideBarOpen = "sidebar-open";
+  let body = document.body;
+  let back2Top = document.querySelector("#back_to_top"),
+    back2TopText = document.querySelector("#back_to_top_text"),
+    drawerBox = document.querySelector("#drawer_box"),
+    rightSideBar = document.querySelector(".sidebar"),
+    viewport = document.querySelector("body");
+
+  function scrollAnimation(currentY, targetY) {
+    let needScrollTop = targetY - currentY;
+    let _currentY = currentY;
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10);
+      _currentY += dist;
+      window.scrollTo(_currentY, currentY);
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY);
+      } else {
+        window.scrollTo(_currentY, targetY);
+      }
+    }, 1);
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener("scroll", function (e) {
+    let percent =
+      (document.scrollingElement.scrollTop /
+        (document.scrollingElement.scrollHeight -
+          document.scrollingElement.clientHeight)) *
+      100;
+    if (percent > 1 && !back2Top.classList.contains("back-top-active")) {
+      back2Top.classList.add("back-top-active");
+    }
+    if (percent == 0) {
+      back2Top.classList.remove("back-top-active");
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  let hasCacu = false;
+  window.addEventListener("resize", function (e) {
+    calcuHeight();
+  });
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (
+      (!hasCacu && back2Top.classList.contains("pisces")) ||
+      back2Top.classList.contains("gemini")
+    ) {
+      let sideBar = document.querySelector(".sidebar");
+      let navUl = document.querySelector("#site_nav");
+      sideBar.style =
+        "margin-top:" + (navUl.offsetHeight + navUl.offsetTop + 15) + "px;";
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false,
+    MOTION_TIME = 300,
+    RIGHT_MOVE_DIS = "320px";
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll(".right-motion");
+    let right = drawerBox.classList.contains("right");
+
+    let transitionDir = right
+      ? "transition.slideRightIn"
+      : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingRight: "0px",
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingLeft: "0px",
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      jQuery.Velocity(rightSideBar, "stop");
+      jQuery.Velocity(viewport, "stop");
+      jQuery.Velocity(rightMotions, "stop");
+      if (open) {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: RIGHT_MOVE_DIS,
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, transitionDir, {});
+            },
+          }
+        );
+        jQuery.Velocity(viewport, openProp, {
+          duration: MOTION_TIME,
+        });
+      } else {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: "0px",
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, {
+                opacity: 0,
+              });
+            },
+          }
+        );
+        jQuery.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME,
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle("muse-line");
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    };
+  }
+
+  // 链接跳转
+  let newWindow = "true";
+  if (newWindow === "true") {
+    let links = document.querySelectorAll(".post-body a");
+    links.forEach((item) => {
+      if (!item.classList.contains("btn")) {
+        item.setAttribute("target", "_blank");
+      }
+    });
+  }
+
+  let faSearch = document.querySelector("#fa_search");
+  faSearch &&
+    faSearch.addEventListener("click", function () {
+      document.querySelector("#search_mask").style = "";
+    });
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+  // 离开当前页title变化
+  var leaveTitle = "";
+  var normal_title = document.title;
+  if (leaveTitle) {
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState == "hidden") {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/media/css/jquery.fancybox.css" />
+<script src="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/media/js/jquery.fancybox.js"></script>
+
+<script>
+  let images = document.querySelectorAll(".section img");
+  images.forEach((image) => {
+    var parent = image.parentElement;
+    var next = image.nextElementSibling;
+    parent.removeChild(image);
+    var aelem = document.createElement("a");
+    aelem.href = image.src;
+    aelem.dataset["fancybox"] = "images";
+    aelem.dataset["rel"] = "fancybox-button";
+    aelem.classList.add("fancybox");
+    aelem.appendChild(image);
+    parent.insertBefore(aelem, next);
+  });
+</script>
+  </div>
+</body>
+
+  <div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/guo-qing-chang-jia-an-pai/"" data-c="
+          &lt;p&gt;8天的长假，我值班2天，剩下的6天终于可以好好休息休息啦！&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;ul&gt;
+&lt;li&gt;​		但这6天我也不能闲着，因为我要去医院照顾生病的爸爸，还要送孩子去补课。中考的压力太大了，初三的学习真的很紧张。&lt;/li&gt;
+&lt;li&gt;​		好在后面4天老婆也休息了，我们一家人终于可以团聚在一起，享受一下难得的休闲时光。&lt;/li&gt;
+&lt;li&gt;​		这几天我打算和老婆孩子一起做一些有意义的事情，比如看一场电影，去公园或者郊外走走，一起做一顿丰盛的晚餐，还可以玩一些游戏，让这个假期变得更加充实和有意义！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​		&lt;strong&gt;虽然生活中会有很多困难和挑战，但是只要我们一家人在一起，共同面对，就没有什么过不去的坎儿！希望我们一家人能够度过一个愉快而难忘的假期！加油哦~💪💪💪&lt;/strong&gt;&lt;/p&gt;
+">国庆长假安排</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/jsdelivr-cdn-jia-su/"" data-c="
+          &lt;p&gt;JSDelivr 是由 @Cloudflare 提供的免费开源公共 CDN。默认的提供的节点是 cdn.jsdelivr.net，但该节点在国内几乎不可用，需要使用可用性高的节点作为替代。&lt;br&gt;
+以下是一些常用的 JSDelivr 节点：&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;ul&gt;
+&lt;li&gt;gcore.jsdelivr.net: Gcore 节点，可用性高&lt;/li&gt;
+&lt;li&gt;testingcf.jsdelivr.net: Cloudflare 节点，可用性高&lt;/li&gt;
+&lt;li&gt;quantil.jsdelivr.net: Quantil 节点，可用性尚可&lt;/li&gt;
+&lt;li&gt;fastly.jsdelivr.net: Fastly 节点，可用性尚可&lt;/li&gt;
+&lt;li&gt;originfastly.jsdelivr.net: Fastly 节点，可用性低&lt;/li&gt;
+&lt;li&gt;test1.jsdelivr.net: Cloudflare 节点，可用性低&lt;/li&gt;
+&lt;li&gt;cdn.jsdelivr.net: 通用节点，可用性低&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;此外，还有第三方提供的 jsdelivr 节点，如 jsd.onmicrosoft.cn（国内 CDN）和 jsdelivr.b-cdn.net（台湾 CDN），国内速度很快，但稳定性不清楚。&lt;br&gt;
+对于 npm 节点，unpkg.com 在国内几乎不可用，可用以下国内 cdn 节点替代：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;npm.elemecdn.com&lt;/li&gt;
+&lt;li&gt;npm.onmicrosoft.cn&lt;/li&gt;
+&lt;li&gt;unpkg.zhimg.com&lt;/li&gt;
+&lt;li&gt;npm.akass.cn&lt;/li&gt;
+&lt;li&gt;cdn.chuqis.com/npm/&lt;/li&gt;
+&lt;li&gt;code.bdstatic.com/npm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些节点同步速度不同，但都需要准确的版本号。&lt;br&gt;
+总的来说，选择合适的 JSDelivr 节点可以提高项目在国内的可用性。如果您需要更多帮助，请随时告诉我。&lt;br&gt;
+#JSDelivr CDN 加速&lt;/p&gt;
+">JSDelivr CDN 加速</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/da-meng-zhong-de-wu-nai/"" data-c="
+          &lt;h1 id=&#34;大梦中的无奈&#34;&gt;大梦中的无奈&lt;/h1&gt;
+&lt;p&gt;最近，我一直在听《大梦》，这首歌唱尽了人间的无奈。歌词中无数个“怎么办”挥之不去，让我感慨万千。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
+&lt;p&gt;现实生活中，我遇到了许多难题。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;爸爸突发脑梗，卧床不起；&lt;/li&gt;
+&lt;li&gt;妻子工作忙碌，对我越来越冷漠；&lt;/li&gt;
+&lt;li&gt;孩子叛逆期，经常与我顶嘴。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;面对这些问题，我感到非常无奈。&lt;/p&gt;
+&lt;h3 id=&#34;爸爸的病情&#34;&gt;爸爸的病情&lt;/h3&gt;
+&lt;p&gt;爸爸是家里的顶梁柱，现在却卧床不起，我不知道该怎么办。每天都要去医院照顾他，还要照顾孩子和工作，我感到非常疲惫。&lt;/p&gt;
+&lt;h3 id=&#34;妻子的冷漠&#34;&gt;妻子的冷漠&lt;/h3&gt;
+&lt;p&gt;以前，我们感情很好，现在却越来越冷淡。她经常加班，很少有时间陪我和孩子。我不知道她心里在想什么，我感到非常孤独。&lt;/p&gt;
+&lt;h3 id=&#34;孩子的叛逆&#34;&gt;孩子的叛逆&lt;/h3&gt;
+&lt;p&gt;他经常与我顶嘴，不听我的管教。我不知道该怎么教育他，我感到非常焦虑。&lt;/p&gt;
+&lt;p&gt;这些问题让我感到非常压抑，我不知道该怎么办。我经常在夜里睡不着觉，想着这些问题，感到非常心酸。&lt;/p&gt;
+&lt;h2 id=&#34;结尾&#34;&gt;结尾&lt;/h2&gt;
+&lt;p&gt;我不知道大梦中的无奈何时才能结束。我希望爸爸能早日康复，妻子能多陪陪我和孩子，孩子能变得懂事。我希望这一切都是一场梦，梦醒之后，一切都恢复正常。&lt;/p&gt;
+&lt;h2 id=&#34;思考&#34;&gt;思考&lt;/h2&gt;
+&lt;p&gt;《大梦》是一首悲伤的歌，但也给了我希望。歌词中唱道：“放不下 怎圆满”这句话让我明白，人生就像一场梦，要珍惜眼前的一切。我会努力面对现实中的困难，希望未来一切都会好起来。&lt;/p&gt;
+&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=330 height=86 src=&#34;//music.163.com/outchain/player?type=2&amp;id=2083989384&amp;auto=1&amp;height=66&#34;&gt;&lt;/iframe&gt;">大梦中的无奈</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/ling-pao-t03-huan-hou-jian-zhen-qi-wu-xiao/"" data-c="
+          &lt;p&gt;最近，我的零跑 T03 后排过坑时感觉很颠簸，于是我在京东上买了两根后减震器进行更换。然而，换上新减震器后，并没有明显的改善效果，让我有些失望。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;在网上的车主群里，不少人推荐更换减震器来改善车辆的舒适性。我也买来请师傅进行了更换，但实际效果并不明显。可能是选择的减震器不适合我的车型。&lt;br&gt;
+总之，对于想要通过更换减震器来改善车辆舒适性的车主，建议先了解自己的车型和问题，选择适合的减震器，并在专业人士的指导下进行更换。不要盲目跟风，以免浪费时间和金钱。&lt;/p&gt;
+">零跑 T03 换后减震器无效</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/an-zhuo-shou-cang/"" data-c="
+          &lt;h4 id=&#34;1-手机apk&#34;&gt;1. 手机APK&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;网站：&lt;/strong&gt;&lt;a href=&#34;https://www.ghxi.com/category/all/android&#34;&gt;果核剥壳&lt;/a&gt;    &lt;a href=&#34;https://www.423down.com/apk&#34;&gt;423down&lt;/a&gt;  &lt;a href=&#34;https://www.fy6b.com/category/all/android&#34;&gt;枫音应用&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;网盘：&lt;/strong&gt; &lt;a href=&#34;https://www.lanzoui.com/u/yoyodadada&#34;&gt;yoyodadada&lt;/a&gt;	  &lt;a href=&#34;https://www.lanzoui.com/b281858&#34;&gt;黑科技玩机&lt;/a&gt;	   &lt;a href=&#34;https://www.lanzoui.com/b133841&#34;&gt;兜兜&lt;/a&gt; &lt;/p&gt;
+&lt;h4 id=&#34;2-tv-apk&#34;&gt;2. TV  APK&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;网站：&lt;/strong&gt;&lt;a href=&#34;https://www.sharerw.com/a/jxtv/&#34;&gt;分享者&lt;/a&gt;	  &lt;a href=&#34;https://www.fenxm.com/tv&#34;&gt;分享迷&lt;/a&gt;  &lt;a href=&#34;https://www.kacao.net/androidtv&#34;&gt;小宇资源&lt;/a&gt;   	&lt;a href=&#34;https://57cool.cool/&#34;&gt;57号同学&lt;/a&gt;  &lt;a href=&#34;https://www.pcoof.com/tv&#34;&gt;PC软件库&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://iptvindex.com/&#34;&gt;iptv&lt;/a&gt;   &lt;a href=&#34;https://www.appmiu.com/live&#34;&gt;app喵&lt;/a&gt;   &lt;a href=&#34;https://xzbao.net/&#34;&gt;下载宝&lt;/a&gt;  &lt;a href=&#34;https://search.ymck.me/&#34;&gt;猫影仓库&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;网盘：&lt;/strong&gt;&lt;a href=&#34;https://www.123pan.com/s/Mn6UVv-etPjv&#34;&gt;pcoof网盘&lt;/a&gt;   &lt;a href=&#34;https://php.tv444.repl.co/&#34;&gt;影视TV&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;直播源：&lt;/strong&gt; &lt;a href=&#34;https://epg.pw/test_channel_page.html&#34;&gt;epg&lt;/a&gt;   &lt;a href=&#34;https://live.fanmingming.com/&#34;&gt;live&lt;/a&gt;   &lt;a href=&#34;https://owen2000wy.github.io/&#34;&gt;owen2000&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;3-软件市场&#34;&gt;3. 软件市场&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ikuwan.net/&#34;&gt;酷玩社区&lt;/a&gt; -- &lt;a href=&#34;https://lanzoui.com/imQQ90zqwkih&#34;&gt;APK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;奇妙应用 -- &lt;a href=&#34;https://lanzoui.com/s/MagicalApp&#34;&gt;APK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://appshare.muge.info/&#34;&gt;AppShare&lt;/a&gt; --&lt;a href=&#34;https://wwor.lanzoue.com/ibzu614fkt7c&#34;&gt;APK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+">安卓APK</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/nao-geng-zhen-ke-pa/"" data-c="
+          &lt;p&gt;&lt;strong&gt;今天真是糟糕的一天，爸爸的老毛病又犯了。上周五他在镇医院住院，情况有所缓解，但今天早上突然出&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;strong&gt;现了吐词不清的症状。我们赶紧把他送到了人和医院，希望能够进行溶栓治疗。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我还在上班，不能亲自陪伴爸爸，只能通过电话了解情况。幸好老婆今天不上班，她一直在医院里陪伴着爸爸。妹妹也帮忙联系了车子，让我们能够尽快赶到医院，并且还带了很多住院的物品。现在我们正在等待医生的诊断结果，希望爸爸能够尽快康复。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在这个上有老、下有小的年纪，我们真的不能有任何闪失。希望爸爸能够坚强，我们也会尽力照顾他，让他早日康复。&lt;/strong&gt;&lt;/p&gt;
+">脑梗真可怕</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/9-yue-9-ri-tong-xue-hui/"" data-c="
+          &lt;h2 id=&#34;开场白&#34;&gt;开场白&lt;/h2&gt;
+&lt;p&gt;在这个特殊的日子里，我们班 1997 年初中毕业的同学们在晏老师的组织下举行了一场别开生面的同学会。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;时光飞逝，大家都已经步入了而立之年，但是同学之间的情谊却依旧那么真挚。&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://3o.hk/images/2023/09/11/2023.jpg&#34; alt=&#34;2023.jpg&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;重温校园时光&#34;&gt;重温校园时光&lt;/h2&gt;
+&lt;p&gt;在这场同学会上，我们聊起了当年的校园生活，回忆起了那些青涩的时光。我们分享了自己的近况，交流了工作和生活中的点滴。&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://3o.hk/images/2023/09/11/1.jpg&#34; alt=&#34;1.jpg&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;与老师的交流&#34;&gt;与老师的交流&lt;/h2&gt;
+&lt;p&gt;最令人感动的是晏老师依然那么和蔼可亲，她跟我们分享了她的教学经验，鼓励我们要继续努力，为社会做出更大的贡献。其他老师也对我们表示了关心和祝福，让我们感受到了老师们对我们的爱和期望。&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://3o.hk/images/2023/09/11/3.jpg&#34; alt=&#34;3.jpg&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
+&lt;p&gt;同学会结束后，我们都感慨万分。我们深感时光的宝贵，也明白了友情的珍贵。我们约定，以后要经常联系，保持这份难得的情谊。&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;4&#34;&gt;&lt;img src=&#34;https://3o.hk/images/2023/09/11/11.jpg&#34; alt=&#34;11.jpg&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;这次同学会让我们重温了青春的美好也让我们感受到了岁月的无情-但是我们相信只要我们心怀感恩珍惜当下就一定能够创造出更加美好的未来&#34;&gt;这次同学会，让我们重温了青春的美好，也让我们感受到了岁月的无情。但是，我们相信，只要我们心怀感恩，珍惜当下，就一定能够创造出更加美好的未来。&lt;/h2&gt;
+&lt;p&gt;👋🏻Hi 同学们，猜猜我昨天去哪了？🤩🤩&lt;/p&gt;
+&lt;p&gt;👉🏻没错！就是和初中同学聚会啦！👈🏻&lt;/p&gt;
+&lt;p&gt;👉🏻不得不说，毕业这么多年再见到大家真的好开心啊！😆😆&lt;/p&gt;
+&lt;p&gt;👉🏻而且我们还和当年的班主任晏老师一起聊了好多，回忆起了当年的点点滴滴，真的是太感慨了！😭😭&lt;/p&gt;
+&lt;p&gt;👉🏻晏老师还是那么漂亮有气质，时间在她身上仿佛没有留下痕迹，真想再回到初中，再做她的学生啊！😍😍&lt;/p&gt;
+&lt;p&gt;👉🏻感觉时间过得好快，一下子就到了凌晨，真的好舍不得大家啊！😢😢&lt;/p&gt;
+&lt;p&gt;#初中同学聚会  #晏老师 #回忆杀 #开心&lt;/p&gt;
+">同学聚会</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/hai-zi-yao-zhu-xiao-liao/"" data-c="
+          &lt;p&gt;初二年级期末考试，成了分班考，现在分班了，新的老师，同学，主要的是要住校了。她自己要求住校。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;5公里不到的路程，我们可以接送的，&lt;br&gt;
+&amp;quot;不，我要去住校的！&amp;quot;&lt;br&gt;
+不愿意在家了，好吧！自力更生去。&lt;br&gt;
+&lt;img src=&#34;https://tuchuangs.com/imgs/2023/08/28/75f115ce891464fb.jpg&#34; alt=&#34;美湖&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+">孩子要住校了</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/test/"" data-c="
+          &lt;h1 id=&#34;mdtu-简介&#34;&gt;MDTU 简介&lt;/h1&gt;
+&lt;p&gt;Markdown Devtool，简称 &lt;code&gt;MDTU&lt;/code&gt;，中文名 &lt;code&gt;码途编辑器&lt;/code&gt;。是一款基于 &lt;a href=&#34;https://github.com/bytedance/bytemd&#34;&gt;bytemd&lt;/a&gt; 由山月开发的支持微信样式的 Markdown 编辑器。&lt;/p&gt;
+&lt;h2 id=&#34;列表&#34;&gt;列表&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;有序列表&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;天干
+&lt;ol&gt;
+&lt;li&gt;甲&lt;/li&gt;
+&lt;li&gt;乙&lt;/li&gt;
+&lt;li&gt;丙&lt;/li&gt;
+&lt;li&gt;丁&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;地支
+&lt;ol&gt;
+&lt;li&gt;子&lt;/li&gt;
+&lt;li&gt;丑&lt;/li&gt;
+&lt;li&gt;寅&lt;/li&gt;
+&lt;li&gt;卯&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;无序列表&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;天干
+&lt;ul&gt;
+&lt;li&gt;甲&lt;/li&gt;
+&lt;li&gt;乙&lt;/li&gt;
+&lt;li&gt;丙&lt;/li&gt;
+&lt;li&gt;丁&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;地支
+&lt;ul&gt;
+&lt;li&gt;子&lt;/li&gt;
+&lt;li&gt;丑&lt;/li&gt;
+&lt;li&gt;寅&lt;/li&gt;
+&lt;li&gt;卯&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;引用&#34;&gt;引用&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;欲穷千里目，更上一层楼&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;举头望明月，低头思故乡&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;今春看又过，何日是归年&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;代码&#34;&gt;代码&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;内联代码&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;import&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;代码段&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 如何实现一个防抖函数
+function debounce (f, wait) {
+  let timer
+  return (...args) =&amp;gt; {
+    clearTimeout(timer)
+    timer = setTimeout(() =&amp;gt; f(...args), wait)
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;标题&#34;&gt;标题&lt;/h2&gt;
+&lt;p&gt;以下是关于标题的样式&lt;/p&gt;
+&lt;h1 id=&#34;一级标题&#34;&gt;一级标题&lt;/h1&gt;
+&lt;h2 id=&#34;二级标题&#34;&gt;二级标题&lt;/h2&gt;
+&lt;h3 id=&#34;三级标题&#34;&gt;三级标题&lt;/h3&gt;
+&lt;h2 id=&#34;主题&#34;&gt;主题&lt;/h2&gt;
+&lt;p&gt;多主题被我开源在了 Github 仓库: &lt;a href=&#34;https://github.com/shfshanyue/markdown-theme&#34;&gt;markdown-theme&lt;/a&gt;。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Theme&lt;/th&gt;
+&lt;th&gt;中文&lt;/th&gt;
+&lt;th&gt;Author&lt;/th&gt;
+&lt;th&gt;Preview&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;github&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/sindresorhus/github-markdown-css&#34;&gt;sindresorhus/github-markdown-css&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://markdown-theme.vercel.app/#github&#34;&gt;Preview&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shanchui&lt;/td&gt;
+&lt;td&gt;山吹&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/elyhg&#34;&gt;#66CCFF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://markdown-theme.vercel.app/#shanchui&#34;&gt;Preview&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shanyue&lt;/td&gt;
+&lt;td&gt;山月&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/shfshanyue&#34;&gt;shanyue&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://npm.devtool.tech/lodash&#34;&gt;Preview&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;condensed-night-purple&lt;/td&gt;
+&lt;td&gt;凝夜紫&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Geekhyt&#34;&gt;童欧巴&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://markdown-theme.vercel.app/#condensed-night-purple&#34;&gt;Preview&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;外链&#34;&gt;外链&lt;/h2&gt;
+&lt;p&gt;这里是&lt;a href=&#34;https://shanyue.tech&#34;&gt;山月的博客&lt;/a&gt;，这里是山月进行了多年面试总结的&lt;a href=&#34;https://q.shanyue.tech&#34;&gt;前端面试题&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;您可以点击编辑器右上角进行&lt;strong&gt;微信外链转脚注&lt;/strong&gt;与&lt;strong&gt;微信外链转二维码&lt;/strong&gt;，并点击右上角微信图标进行复制。&lt;/p&gt;
+&lt;p&gt;这里是&lt;a href=&#34;shanyue.tech&#34;&gt;山月的博客 (不显示二维码)&lt;/a&gt;，这里是山月进行了多年面试总结的&lt;a href=&#34;q.shanyue.tech&#34;&gt;前端面试题 (不显示二维码)&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;如果链接地址不是以 &lt;code&gt;http&lt;/code&gt; 开头，则不会显示它的二维码。&lt;/p&gt;
+&lt;h2 id=&#34;url-to-markdown&#34;&gt;URL to Markdown&lt;/h2&gt;
+&lt;p&gt;您可以点击 MDTU 编辑器右上角&lt;strong&gt;链接采集按钮&lt;/strong&gt;，输入 URL 回车确认可从 URL 中获取 Markdown。&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/23487fbd375e42c8b1ac6410c89fb656~tplv-k3u1fbpfcp-watermark.image&#34; alt=&#34;链接采集&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;自动编号-插入目录-插入导图&#34;&gt;自动编号、插入目录、插入导图&lt;/h2&gt;
+&lt;p&gt;您可以点击 MDTU 编辑器左上角&lt;strong&gt;自动编号&lt;/strong&gt;，将会对一级标题、二级标题、三级标题进行自动编号。&lt;/p&gt;
+&lt;h2 id=&#34;使用模板&#34;&gt;使用模板&lt;/h2&gt;
+&lt;p&gt;您可以点击 MDTU 编辑器 &lt;code&gt;使用模板 -&amp;gt; 管理模板&lt;/code&gt; 按钮，配置自己的模板。&lt;/p&gt;
+&lt;p&gt;使用占位符 &lt;code&gt;{{ content }}&lt;/code&gt; 代表正文内容。&lt;/p&gt;
+&lt;h2 id=&#34;方格背景&#34;&gt;方格背景&lt;/h2&gt;
+&lt;p&gt;您可以点击 MDTU 编辑器 &lt;code&gt;UI -&amp;gt; 方格背景&lt;/code&gt;，将会对该主题添加上方格背景。&lt;/p&gt;
+&lt;h2 id=&#34;赞赏&#34;&gt;赞赏&lt;/h2&gt;
+&lt;p&gt;如果该工具对你有所帮助，可以请我喝一瓶&lt;s&gt;农夫山泉&lt;/s&gt;冰露 (别人说农夫山泉太奢侈，这里改成冰露吧)&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/263bac43ead842bab0efbf6a431f4e32~tplv-k3u1fbpfcp-watermark.image&#34; alt=&#34;请我喝一瓶冰露&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;交流&#34;&gt;交流&lt;/h2&gt;
+&lt;p&gt;欢迎扫码添加我的微信，加入 MDTU 编辑器交流群&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://shanyue.tech/wechat.jpeg&#34; alt=&#34;shanyue94&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+">Markdown测试</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/li-tiao-tiao-ting-geng-liao/"" data-c="
+          &lt;h2 id=&#34;国内的环境无力吐槽了&#34;&gt;国内的环境无力吐槽了，&lt;/h2&gt;
+&lt;p&gt;好消息是有更多的跳开屏APP出来了。&lt;/p&gt;
+">李跳跳停更了</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/fav/"" data-c="
+          &lt;h2 id=&#34;1-常用&#34;&gt;1. 常用&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;工具&lt;/strong&gt; 【&lt;a href=&#34;https://hao.logosc.cn/&#34;&gt;神器集&lt;/a&gt;】&lt;mark&gt;&lt;a href=&#34;https://www.tansuotu.com/&#34;&gt;探索兔&lt;/a&gt;&lt;/mark&gt;【】&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下载&lt;/strong&gt;【 &lt;a href=&#34;https://www.423down.com/&#34;&gt;423down&lt;/a&gt;   】【 &lt;a href=&#34;https://www.ghxi.com/&#34;&gt;果核&lt;/a&gt;】【&lt;a href=&#34;https://www.ypojie.com/&#34;&gt;亿破解&lt;/a&gt;】 【&lt;a href=&#34;https://www.iplaysoft.com/&#34;&gt;异次元&lt;/a&gt;】【&lt;a href=&#34;https://www.appinn.com/&#34;&gt;小众软件&lt;/a&gt;】 【&lt;a href=&#34;https://meitufu.com/&#34;&gt;太阳软件库&lt;/a&gt;】【&lt;a href=&#34;https://file.cnxiaobai.com/&#34;&gt; MemoryStory网盘&lt;/a&gt;】【&lt;a href=&#34;https://adzhp.xyz/blog&#34;&gt;爱达杂货铺&lt;/a&gt;】【&lt;a href=&#34;https://www.207788.xyz/&#34;&gt;好站&lt;/a&gt;】【&lt;a href=&#34;https://www.pcoof.com/&#34;&gt;PC软件库&lt;/a&gt;】&lt;br&gt;
+&lt;strong&gt;图床&lt;/strong&gt; |&lt;a href=&#34;https://3o.hk/plugin&#34;&gt;3o&lt;/a&gt;| &lt;a href=&#34;https://mjj.today/a/Uj6tw&#34;&gt;mjj.today&lt;/a&gt;  |  &lt;a href=&#34;https://3o.hk/cqmzgg/&#34;&gt;3o.hk&lt;/a&gt;  | &lt;a href=&#34;https://moe.photo/&#34;&gt;moe.photo&lt;/a&gt;   |    &lt;a href=&#34;https://forest.pics/&#34;&gt;forest.pics&lt;/a&gt;  |&lt;br&gt;
+&lt;strong&gt;AI chatgpt&lt;/strong&gt; 【&lt;a href=&#34;https://sbai.dongstop.link/&#34;&gt;国粹版&lt;/a&gt;】 【&lt;a href=&#34;https://c2.binjie.fun/#/chat/1693099675525&#34;&gt;ALchatos&lt;/a&gt;】 【&lt;a href=&#34;https://www.doubao.com/chat/settings?id=2318964226&amp;amp;type=0&#34;&gt;豆包&lt;/a&gt;】【&lt;a href=&#34;https://c.binjie.fun/#/&#34;&gt;gpt1&lt;/a&gt;】【&lt;a href=&#34;https://gpt-demo-theta.vercel.app/&#34;&gt;神奇的房间&lt;/a&gt;】&lt;/p&gt;
+&lt;h2 id=&#34;2-tvbox-安卓&#34;&gt;2. TVBOX     &lt;a href=&#34;https://cqmzgg.github.io/post/an-zhuo-shou-cang&#34;&gt;安卓&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;网站&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;备注&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;收录日期&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://xzbao.net/&#34; target=&#34;_blank&#34;&gt;xzbao&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;tvbox 下载&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2023-8-24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://iptvindex.com/&#34; target=&#34;_blank&#34;&gt;iptvindex&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;主题&lt;a href=&#34;https://t.tansuo.tv/&#34;&gt;探索TV&lt;/a&gt;iptvindex&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2023-8-24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.fenxm.com/tv&#34; target=&#34;_blank&#34;&gt;分享迷&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;分享类TV-APP下载&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2023-8-24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://www.nite07.com/&#34; target=&#34;_blank&#34;&gt;nite07&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;分享类TV-APP下载&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2023-9-05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://php.tv444.repl.co/&#34;&gt;影视&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://100km.top/&#34;&gt;影视1&lt;/a&gt; 备用&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2023-9-05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://search.ymck.me/&#34;&gt;猫影的仓库&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;影视资源搜索&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2023-9-05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://search.ymck.me/&#34;&gt;猫影的仓库&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;影视资源搜索&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2023-9-05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;名称&lt;/th&gt;
+      &lt;th&gt;直播源地址&lt;/th&gt;
+      &lt;th&gt;频道数&lt;/th&gt;
+      &lt;th&gt;更新时间&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+      &lt;td&gt;🌏Global直播源&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://live.fanmingming.com/tv/m3u/global.m3u&#34;&gt;https://live.fanmingming.com/tv/m3u/global.m3u&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;210个&lt;/td&gt;
+      &lt;td&gt;2023.10.5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;📺IPTV(IPV6专用)&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://live.fanmingming.com/tv/m3u/ipv6.m3u&#34;&gt;https://live.fanmingming.com/tv/m3u/ipv6.m3u&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;120个&lt;/td&gt;
+      &lt;td&gt;2023.8.28&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;📻Radio直播源&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://live.fanmingming.com/radio/m3u/index.m3u&#34;&gt;https://live.fanmingming.com/radio/m3u/index.m3u&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;304个&lt;/td&gt;
+      &lt;td&gt;2023.8.27&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+## 3. 接口地址 
+--------
+&lt;blockquote&gt;
+&lt;p&gt;1️⃣应用多多线路：http://yydsys.top/duo&lt;br&gt;
+2️⃣饭太硬线路：http://饭太硬.top/tv&lt;br&gt;
+3️⃣肥猫线路：http://我不是.肥猫.love:63/接口禁止贩卖&lt;br&gt;
+4️⃣菜妮丝线路：https://tvbox.cainisi.cf&lt;br&gt;
+5️⃣道长线路：https://pastebin.com/raw/5NHaxyGR&lt;br&gt;
+6️⃣小米线路：http://xhww.fun:63/小米/DEMO.json&lt;br&gt;
+7️⃣接口地址1：https://c.wangmeipo.cn/tv&lt;br&gt;
+8️⃣接口地址2：https://c.wangmeipo.cn/tvbo&lt;/p&gt;
+&lt;/blockquote&gt;
+">收藏</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cqmzgg.github.io/post/about/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;
+&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
+">关于</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+
+<input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
+<script>
+  let language = '';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="https://cdn.jsdelivr.net/gh/cqmzgg/cqmzgg.github.io@main/media/js/motion.js"></script>
+
+
+  <script
+    src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 200
+    });
+  </script>
+
+
+
+<script src="/media/js/mouse/peace.js"></script>
+
+
+
+
+
+</html>
