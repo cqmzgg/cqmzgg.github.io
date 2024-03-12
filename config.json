@@ -1,10 +1,10 @@
 {
-    "title":"Meekdai",
-    "displayTitle":"eekdai",
-    "subTitle":"童话是一种生活态度，仅此而已。",
-    "homeUrl":"https://blog.meekdai.com",
+    "title":"码字日记",
+    "displayTitle":"Blog",
+    "subTitle":"不要假装努力，结果不会陪你演戏。",
+    "homeUrl":"https://cqmzgg.github.io",
     "avatarUrl":"https://meekdai.com/avatar.svg",
     "faviconUrl":"https://meekdai.com/favicon.svg",
-    "singlePage":[],
+    "singlePage":["link","about"],
     "GMEEK_VERSION":"last"
 }
