@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="//cdn.staticfile.org/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link rel="icon" href="https://meekdai.com/favicon.svg">
+    <script>
+        if(localStorage.getItem("meek_theme")==null){}
+        else if(localStorage.getItem("meek_theme")=="dark"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="dark";}
+        else if(localStorage.getItem("meek_theme")=="light"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";}
+    </script>
+    
+<meta name="description" content="说话就是生产力">
+<title>说话就是生产力</title>
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">说话就是生产力</h1>
+<div class="title-right">
+    
+    <a href="https://blog.meekdai.com"><button id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd" d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"></path>
+        </svg>
+    </button></a>
+
+    
+    <a href="https://github.com/cqmzgg/cqmzgg.github.io/issues/4" target="_blank"><button class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+        </svg>
+    </button></a>
+    
+
+    <button class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </button>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h2>说话就是生产力</h2>
+<h3>沟通八步训练</h3>
+<h5>讲述</h5>
+<ul>
+<li><strong>讲述的要求</strong></li>
+</ul>
+<ol>
+<li>讲话的时间要足够（要求 2 分钟至少 1 分 45 秒）</li>
+<li>讲话要有次序（时间，地点，人物的次序）</li>
+<li>以<strong>事实</strong>为主，要有<strong>细节</strong>，不添加<strong>个人看法</strong></li>
+<li><strong>讲述要靠事实打动人</strong></li>
+</ol>
+<ul>
+<li><strong>讲述不好的特征</strong></li>
+</ul>
+<ol>
+<li><em>时间<strong>不够长</strong></em></li>
+<li><em>内容零散</em></li>
+<li><em>以<strong>个人看法</strong>为主</em><br>
+<strong>练习题目：</strong></li>
+<li><em>讲述你喜欢的颜色</em></li>
+<li><em>讲述你喜欢的学科</em></li>
+<li><em>讲述你住过印象最深的地方</em></li>
+<li><em>讲述你印象最深的朋友</em></li>
+<li><em>讲述年度最感动你的一件事</em></li>
+</ol>
+<h5>叙述</h5>
+<p><strong>讲述+有自己的观点=叙述</strong></p>
+<ol>
+<li>构建完整的故事。</li>
+<li>概括清晰的观点。</li>
+</ol>
+<p><em>在叙述的过程中，需要把己方观点不一致的事实屏蔽。叙述是个技巧，你要有意识的影响别人，不是下一个主观的结论。比如如果你想表达这个人不好，那不能直接说这个人不好，你只要找出他不好的事实就行。你要对事实进行筛选，按次序的组织讲给别人，有目的的影响别人，接受你所想让他接受的东西，影响他的行为，也影响他的结论，就是叙述。</em></p>
+<p><strong>练习题目</strong></p>
+<ol>
+<li><em>用两种方法讲讲你喜欢的颜色，<br>
+<strong>第一种</strong>方法是讲述的方法，要求 2 分钟，有次序的讲，比如说你可以从你 5 岁时讲你喜欢什么颜色，上了中学你喜欢什么颜色，见到了大海你又喜欢什么颜色，你工作了你喜欢什么颜色。<br>
+<strong>第二种</strong>是用叙述的方法来讲，你就要有清晰的观点，比如说赤橙黄绿青蓝紫，你喜欢哪一个颜色，或者说你的观点是打动听你的人也要喜欢这个颜色，你这个时候就要筛选你的经历中的这些颜色对你造成的哪些事实。</em></li>
+<li><em>对当地交通拥堵的看法</em></li>
+<li><em>对当地教育的看法</em></li>
+<li><em>你对孩子的期待</em></li>
+<li><em>请给你的朋友推荐一部电影</em></li>
+<li><em>请介绍他一个好的旅游景点</em></li>
+<li><em>请求邻居不要再把车停到小院里 8 要求朋友不要酒后驾车</em></li>
+</ol>
+<h5>表达</h5>
+<p><strong>表达=讲述+叙述+表演</strong><br>
+表达是一个非语言的方式配合说话，使人同时受到听觉，视觉等信息的刺激，加深印象。其他的还有道具比如赢在中国里面有选手举的卡片。印象深刻的是李敖在北大的表演。另外肢体动作很重要，手，胳膊，身体，面目，眼神，眉毛，目光，笑容，嘴唇等你能不能号召一下为一个同学捐款，思考一下你要准备什么道具。表达的重要性就是你能不能用工具，用道具来体会你的要点，（回忆一下美国推销烟草的那个人）。来传达你想要别人记住的东西，不是简单的说话，而是要强化这样的东西。需要大量的练习这种方式。所以要想说服人家，要先想想你需要强化哪些关键语言，这样你能不能设计到纸上，设计到形状上，如果你有一个物体给别人，人家就会觉得你是认真的。</p>
+<h5>讨论</h5>
+<p><strong>讨论=多人 X（讲述+叙述+表达）</strong><br>
+<strong>说服不了别人，错误不在别人在自己</strong><br>
+谈了蚊子和蜜蜂的方式。蜜蜂之间有沟通。<br>
+讨论的三个核心目的<br>
+1 平等的分享信息<br>
+2 单方面的发布信息<br>
+3 改变别人的看法<br>
+参加会议最重要的技巧就是提问<br>
+提问的时候问什么？<br>
+沟通中最重要的不是你的观点和结论而是你得到你的观点和结论所依据的事实和细节。那么参加讨论的时候提问的要点：<br>
+1 可以问事实，问事实的每一个细节<br>
+2 也可以问得到的结论。<br>
+3 甚至还可以问得到这个结论所依据的逻辑（你这个结论是怎么得来的）<br>
+提问是讨论的核心，正确的提问可以引导讨论的方向，甚至可以影响人们的观点<br>
+比如，有个人说：北京的麦当劳就是不如上海的。你可以就此事讨论提问，你怎么得出这个结论的啊, 当你一提问，讨论就形成了。你其实只是提了两个细节问题，第一个问题是你去了几家？第二个问题是一共有多少家？如果他都说不出来，他对自己的结论是不是已经站不住叫了。这个人说了“有一天我去北京的一家麦当劳吃饭，我就发现那个桌子上没人坐，而且桌子上还有前一个人吃剩的东西在那放着。有两个桌上都有这个，而在上海从来都不会见到这种情况发生。”你听了他这么说，你还有什么要问的么？还是你接受了他的看法了。他以上说的是一个事实。但你还可以接着提问：“那么你在北京看到的这个情况是一家店还是两家店啊？”对方说：总之是好多家，那你还可以问那在北京一共有多少家麦当劳的店啊？<br>
+讨论的真正目的不在于驳斥，如果两个人都不同意对方的结论，双方谁都不提供细节，都不去追问你所依据的逻辑，且两个人都只说自己的结论，那就是吵架了。真正厉害的提问是问逻辑<br>
+练习题目：<br>
+1 长假去哪里玩<br>
+2 买车还是不买车<br>
+3 与邻居讨论是否能不影响自己</p>
+<h5>汇报</h5>
+<p>汇报=叙述+表达+建议汇报最重要的就是要有建议<br>
+不合格的汇报<br>
+一，只有结论，没有事实<br>
+二，只有事实，没有结论<br>
+三，缺少建议所以有事实，有结论，有建议才是完整的汇报<br>
+汇报的要点<br>
+一，汇报的目的<br>
+二，汇报的内容<br>
+三，提供建议</p>
+<h5>陈述</h5>
+<p>陈述=书面文字+表达<br>
+真正的任何能力都不是说你学一招你就会的。真正的说话的功力都来自于书面。要想出口成章就要不断的锻炼陈述能力，怎样锻炼陈述能力呢，真正的陈述训练是靠读书，写日记或者说是靠书面训练得来的。如果你在一个会议上有机会发言超过 15 分钟，那你一定不是一个一般的人，你能讲 15 分钟这样的水平就叫陈述水平。</p>
+<p>书面表达的要求<br>
+一，次序。时间次序，地点次序，人物次序，观点次序等等。一旦说话有了次序，就有了系统化。如果你在说一件事情的时候，你能把时间，地点，人物的次序都展示出来，而且是有节奏的展示出来，那就是高水平的陈述了。<br>
+二，层次。层次决定深度。层次是一级一级纵深的。<br>
+陈述练习 1 对你自己所学的专业做个陈述，要求 15 分钟至少 2，自己与父母的关系进行陈述。</p>
+<h5>解释</h5>
+<p>解释=讨论+表达<br>
+解释的四个要点<br>
+一，听懂对方<br>
+二，让对方知道我听懂了他（有效回应）<br>
+三，争取对方听懂我（让对方在已知内容的基础上交流）<br>
+四，确认对方听懂我了</p>
+<p>什么叫听懂<br>
+听懂对方的逻辑了才叫听懂，有效的沟通不仅需要说话，更需要倾听，听懂对方之后要及时作出回应，沟通才能继续。</p>
+<p>如何让对方知道我听懂了<br>
+就是把对方说的话重复一遍，然后再给予回答</p>
+<p>什么叫争取对方听懂我<br>
+就是在对方已知内容的基础上交谈</p>
+<h5>回应</h5>
+<p>回应=陈述+解释<br>
+（听了对方的陈述给予解释）回应是一种对抗状态，解释还有人情在，可是回应是不一定的。不一定是在同一立场下进行沟通。回应应该是一个变被动为主动的过程，日常生活中如果懂得更多的回应方法成功的机会也会增多。针对王石的例子进行回应<br>
+如何剖析对方的话</p>
+<p>一，他提供了什么样的事实<br>
+二，他形成了什么看法<br>
+三，他依靠了哪些逻辑</p>
+<p>你可以针对他的事实，因为他只看到了一部分毕业生而不是所有的，他的看法是，你们这些毕业生能到我们万科这样的企业来，顶多是个过渡。他有一个逻辑假定，我万科在你心目中不是第一的。这个假定对么？他的逻辑站住脚么？</p>
+<p>回应的要点<br>
+依据对方删选掉的事实<br>
+对方没有看到的事实<br>
+提供与他不一定的事实</p>
+<h3>沟通四大技巧</h3>
+<h5>垫子</h5>
+<p>垫子垫子的作用：<br>
+一，缓解的作用<br>
+二，促进提问的一方对提问进行解释（一旦解释就讲出了更多的信息）</p>
+<p>在回答客户的问题时，有效应用对问题的评价来延缓其对问题的关注。垫子就是在双方说话一来一往之间添加隔层，创造舒服的环境和范围。</p>
+<p>垫子一般分为两种形式，一种是评论对方的问题很专业，另外一种就是承认对方的问题具有普遍意义。要注意垫子不是对人的吹捧，是对对方问题的评价。</p>
+<p>第一种垫子清单：<br>
+您的这个问题太专业了/太尖锐了/是我从业五年来遇到的最难的一个/大学上专业课时出过考题/太深奥了/让我想起张瑞敏来买车时也这样问过/就像这个月出的《汽车杂志》中的一个专栏的题目一样/一下子就问到点子上了</p>
+<p>第二种垫子清单：<br>
+您的这个问题许多人都问过/太有代表性了/如果您不问我也要替您问这个问题。</p>
+<h5>迎合</h5>
+<p>迎合是承接对方说话的语意，形成顺应的语言背景，赢得宽容的交谈氛围。<br>
+如何迎合？<br>
+对方说结论，你补充事实。例如，今年冬天可真够冷的。是啊，零下 19 度，45 年最低。<br>
+对方说事实，你补充结论。例如，我今天在长途汽车站丢了个手机。诶呀，长途汽车那是挺乱的。<br>
+对方说出了事实和结论，你就给一个体验。比如对方说上周我发烧 39 度，头晕眼花，难受死了，你可以说，我上次发烧 38.9 就已经抬不起头了。</p>
+<p>例 A：某人表达了一个观点之后，这个观点可能只是在某个特定情境下的看法，首先对此表示赞同，然后再去主导谈话内容。比如说，您说的这个是 XXX 非常重要的一方面，还有。。。。<br>
+例 B：客户怒气冲冲的说：你服务太差了，昨天刚修好的空调，今天上午刚一开就又出毛病了。可以参考如下回答：真的么，这可真太不像话了。别说昨天修好的今天就坏，哪怕是一个月后坏也不应该啊。说实在的每年都发生一两次类似事件，不巧就让您遇到了。让我先看看您昨天的维修记录。通过以上的回答客户肯定还会追究，但是至少可以缓解眼前客户的情绪。此事客户很可能提出的要求就是“那你看怎么解决吧”，也就是说客户从情绪的发泄转移到寻找问题的解决途径上。</p>
+<p>迎合的最高境界是不知不觉的看到他的行为就给予结论，看到一个现象就给予符合逻辑的结论。</p>
+<h5>制约</h5>
+<p>制约就是先发制人，把客户想要说的话提前说出来，结果别人反而无法发作，制约客户的思考思路。</p>
+<p>例 A：客户走进展厅，看着展厅中的某个车说，这个车多少钱？客户并没有提到车名，意味着对车不熟，这个时候你报多少钱他都会说贵，或是问你能不能便宜。所以，我们可以先发制人说：您眼光不错，这个车不便宜，这款式现在宝马车里最新最流行的款式。到底多少钱呢？98 万。此时客户会有两种反应，一种是：这就叫贵啊？另一种是：是挺贵的。此时你有机会向他介绍这个车的卖点，解释为什么这么贵。</p>
+<p>制约的三种方法<br>
+1 说出对方可能说出的结论<br>
+2 给对方两个选择，给别人一种选择其实也是一种制约，因为一旦你给出了选择，说明你对这个问题的思考是成熟的，是有备而来的。多数人说话没有准备平时，一旦你有准备，你就可能赢别人。<br>
+3 表现比对方更加期待。</p>
+<h5>主导</h5>
+<p>主导在与人谈话过程中，要控制销售对话的主题内容以及谈话的发展趋势和方向</p>
+<p>例 A：XXX 这件事到底如何办，应该从三个方面来考虑，第一……<br>
+例 B：您说的 EBD 仅是衡量车安全性装置的四个中的一个。<br>
+要想熟练运用主导式的说话技巧，就需要深入思考，快速反应。但是这种能力并不是与生俱来的。那么有哪些方法可以提高人的反应和思考能力呢</p>
+<p>主导的三种方法：<br>
+A. 凡事都用三个方式来说<br>
+B. 引用权威资料，要注意说人名的时候一定是对方已知的，如果对方不知，一定要介绍对方的背景。<br>
+C.超越眼前的话题本身，上升到更宏观的层面上。这个超越不是为了说服眼前人，而是为了让更多听的人可以理解。这方法主要是用于律师政客等以对抗性说话依靠说服别人为生的人。</p>
+<h4>十三、练习说话的工具 （1）</h4>
+<p>（一）简单疑问句的要点是：回答的话一般都很简单，用一两个字就可以回答<br>
+复杂疑问句的要点是：别人回答的时候，不能用简单的一两句话说清楚，不能是简单的是或否，也不能是好或不好。</p>
+<p>练习方法是：两个人在一起，一个人拿出一张牌上面写“优秀”。<br>
+一群人中总有优秀的一般的和落后的，我不知道你么公司用什么方式来鉴别谁是优秀的呢？上面这是一个复杂疑问句。<br>
+第二个人拿了一张牌，这张牌上写着“根深蒂固”，现在请用这个词汇回答前面的人的问题。<br>
+回答：我们公司鉴别优秀的人有三种方法：第一种方法是这个人不能固执，他老用过去形成的东西，根深蒂固无法改变的东西，这样的人会落后的。<br>
+第二，这个人不能内向，内向他不跟人沟通，就无法跟上时代。<br>
+第三，这个人不能懒惰不愿意学习，他得是开放的心态。<br>
+如果符合这三条，起码在我们公司就算是优秀员工了。那么我想问，优秀员工除了这三条以外，还会有哪些表现你能看到他印证这三条呢。这个人回答完关于优秀的问题后，又问出了第三个问题，另一个复杂疑问句：有哪些行为能够表现你刚才说的三条的优秀呢？这次你抽到的词是“挑战”，用这个词回答刚才那个人留下的新的复杂疑问句。回答完了还要再问出一个新的问题。于是两个人就可以对话一直对下去。</p>
+<p>制作这个扑克牌<br>
+18 个名词<br>
+18 个动词<br>
+18 个形容词，包括 9 个褒义，9 个贬义。</p>
+<p>词汇都要从晚报上找，一定要打印，打印的正规，好识别。</p>
+<p>开始练习（30 秒之内）<br>
+甲任意抽了两张牌，一张是“情报”，一张是“抢注”。用“情报”和“抢注”造一个复杂句。甲：——在互联网的时代，时间就是金钱，一切都讲究要快，可是快速决策是需要信息的，所以我们要搞到竞争对手的情报，所以好的域名就会被他们抢注。可是你能告诉我搞到情报以后如何鉴别这个情报是有价值的呢？<br>
+乙也抽了两张牌，一张是“危机”，一张是“困难”。此时乙的任务是要用手里这两张牌来回答甲最后的问题。<br>
+乙：——（留给观众朋友思考）<br>
+如果这个能在 30 秒内完成，OK，下个挑战就是从三张牌开始练习。（三张牌可以是 60 秒）<br>
+甲抽到了三张牌：失败，冷淡，逃跑<br>
+甲：人生中每个人都在努力，你每一个努力的阶段，都有可能成功，有可能失败，很多人失败以后就会逃跑，面对别人面对任何机会，也不热情而是冷淡。你能知道么，一个人他在失败的时候是什么心情呢？<br>
+乙抽到了三张牌：宣判，攻击，繁荣，用这三个词汇来回答甲最后提出的复杂疑问句。<br>
+乙：——（留给观众朋友思考）<br>
+这些练习，是专门训练大脑的反应速度的，连成以后才练成一寸不烂之舌。<br>
+更难的是抽到牌以后限制你的话题。<br>
+比如只能谈银行业务。甲抽到了“细致”“开拓”“妥协”<br>
+——银行业务部好做，现在竞争非常激烈，因为分行很多，所以如果你工作不细致，你就不能赢得客户的满意，我们不仅工作细致，产品还要开拓，光靠一两个产品已经不够了，就算是这样也不行，客户要求很多，所以适当的时候也要妥协。今天，作为一个银行，除了这些我们还应该靠什么呢？<br>
+乙抽到了三个词，同样也要求在 60 秒之内完成<br>
+如果你能完成就证明你过关了，这样你就可以用 4 张牌，还可以限定角色，一个是客户，一个是销售。<br>
+一天一个小时，2 个星期就要换一副牌。</p>
+<h4>十四、练习说话的工具（2）</h4>
+<p>（二）提问要多说复杂疑问句<br>
+什么叫五何？<br>
+何地，何时，何人，为何，如何<br>
+看一个图，至少要提出 10 个问题，其中至少要有 5 个是复杂疑问句</p></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+</div>
+    <div id="footer">Copyright © <span id="year"></span><a href="https://blog.meekdai.com"> Meekdai </a>
+<p>
+<span id="runday"></span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a>
+</p>
+
+<script>
+if(""!=""){
+    var now=new Date();
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("year").innerHTML=now.getFullYear();
+    if(""!=""){document.getElementById("runday").innerHTML=" • "+"网站运行"+diffDay+"天"+" • ";}
+    else{document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";}
+}
+</script>
+</div>
+</body>
+<script>
+var IconList={'post': 'M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25ZM3.5 6.25a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Zm.75 2.25h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5Z', 'link': 'm7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z', 'about': 'M10.561 8.073a6.005 6.005 0 0 1 3.432 5.142.75.75 0 1 1-1.498.07 4.5 4.5 0 0 0-8.99 0 .75.75 0 0 1-1.498-.07 6.004 6.004 0 0 1 3.431-5.142 3.999 3.999 0 1 1 5.123 0ZM10.5 5a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z', 'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'search': 'M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z', 'rss': 'M2.002 2.725a.75.75 0 0 1 .797-.699C8.79 2.42 13.58 7.21 13.974 13.201a.75.75 0 0 1-1.497.098 10.502 10.502 0 0 0-9.776-9.776.747.747 0 0 1-.7-.798ZM2.84 7.05h-.002a7.002 7.002 0 0 1 6.113 6.111.75.75 0 0 1-1.49.178 5.503 5.503 0 0 0-4.8-4.8.75.75 0 0 1 .179-1.489ZM2 13a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z', 'upload': 'M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z M11.78 4.72a.749.749 0 1 1-1.06 1.06L8.75 3.811V9.5a.75.75 0 0 1-1.5 0V3.811L5.28 5.78a.749.749 0 1 1-1.06-1.06l3.25-3.25a.749.749 0 0 1 1.06 0l3.25 3.25Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z'};
+var utterancesLoad=0;
+if(localStorage.getItem("meek_theme")==null){localStorage.setItem("meek_theme","light");changeLight();}
+else if(localStorage.getItem("meek_theme")=="dark"){changeDark();}
+else if(localStorage.getItem("meek_theme")=="light"){changeLight();}
+
+function changeDark(){
+    document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="dark";
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList["moon"]);
+    document.getElementById("themeSwitch").parentNode.style.color="#00f0ff";
+    if(utterancesLoad==1){utterancesTheme("dark-blue");}
+}
+function changeLight(){
+    document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList["sun"]);
+    document.getElementById("themeSwitch").parentNode.style.color="#ff5000";
+    if(utterancesLoad==1){utterancesTheme("github-light");}
+}
+function modeSwitch(){
+    if(document.getElementsByTagName("html")[0].attributes[0].value=="light"){changeDark();localStorage.setItem("meek_theme","dark");}
+    else{changeLight();localStorage.setItem("meek_theme","light");}
+}
+function utterancesTheme(theme){
+    const message = {type: 'set-theme',theme: theme};
+    const iframe = document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+}
+
+console.log("\n %c Gmeek last %c https://github.com/Meekdai/Gmeek \n\n", "color: #fff; background-image: linear-gradient(90deg, rgb(47, 172, 178) 0%, rgb(45, 190, 96) 100%); padding:5px 1px;", "background-image: linear-gradient(90deg, rgb(45, 190, 96) 0%, rgb(255, 255, 255) 100%); padding:5px 0;");
+</script>
+
+<script>
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","cqmzgg/cqmzgg.github.io");
+    script.setAttribute("issue-term","title");
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else{script.setAttribute("theme","github-light");}
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+</script>
+
+
+
+
+</html>
