@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Meekdai</title><link>https://blog.meekdai.com</link><description>童话是一种生活态度，仅此而已。</description><copyright>Meekdai</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://meekdai.com/avatar.svg</url><title>avatar</title><link>https://blog.meekdai.com</link></image><lastBuildDate>Tue, 12 Mar 2024 03:30:53 +0000</lastBuildDate><managingEditor>Meekdai</managingEditor><ttl>60</ttl><webMaster>Meekdai</webMaster><item><title>about</title><link>https://blog.meekdai.com/post/about.html</link><description>关于页。</description><guid isPermaLink="true">https://blog.meekdai.com/post/about.html</guid><pubDate>Tue, 12 Mar 2024 03:30:32 +0000</pubDate></item><item><title>link</title><link>https://blog.meekdai.com/post/link.html</link><description>链接页。</description><guid isPermaLink="true">https://blog.meekdai.com/post/link.html</guid><pubDate>Tue, 12 Mar 2024 03:29:50 +0000</pubDate></item><item><title>说话就是生产力</title><link>https://blog.meekdai.com/post/shuo-hua-jiu-shi-sheng-chan-li.html</link><description>&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://meekdai.com/avatar.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Tue, 12 Mar 2024 03:44:25 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>说话就是生产力</title><link>https://cqmzgg.github.io/post/shuo-hua-jiu-shi-sheng-chan-li.html</link><description>&#13;
 ## 说话就是生产力&#13;
 ### 沟通八步训练&#13;
 ##### 讲述 &#13;
@@ -21,7 +21,7 @@
 ##### 叙述&#13;
 &#13;
 **讲述+有自己的观点=叙述**&#13;
-1. 构建完整的故事。</description><guid isPermaLink="true">https://blog.meekdai.com/post/shuo-hua-jiu-shi-sheng-chan-li.html</guid><pubDate>Tue, 12 Mar 2024 03:21:06 +0000</pubDate></item><item><title>3月</title><link>https://blog.meekdai.com/post/3-yue.html</link><description>### 3月9日&#13;
+1. 构建完整的故事。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/shuo-hua-jiu-shi-sheng-chan-li.html</guid><pubDate>Tue, 12 Mar 2024 03:21:06 +0000</pubDate></item><item><title>3月</title><link>https://cqmzgg.github.io/post/3-yue.html</link><description>### 3月9日&#13;
 短剧网址&#13;
 &#13;
 [看剧吧](https://www.kanjuda.com)&#13;
@@ -43,7 +43,7 @@ http://530.my3v.work/99668.json&#13;
 [HotPE Docs | 一个纯净、强大、优雅的开源Win11PE](https://docs.hotpe.top/)&#13;
 &#13;
 ### 3 月 3 日&#13;
-一个快照备份工具，适合 obsidain 日记这种变化快文件多的备份。</description><guid isPermaLink="true">https://blog.meekdai.com/post/3-yue.html</guid><pubDate>Tue, 12 Mar 2024 03:20:11 +0000</pubDate></item><item><title>网站</title><link>https://blog.meekdai.com/post/wang-zhan.html</link><description># 网站收藏   &#13;
+一个快照备份工具，适合 obsidain 日记这种变化快文件多的备份。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/3-yue.html</guid><pubDate>Tue, 12 Mar 2024 03:20:11 +0000</pubDate></item><item><title>网站</title><link>https://cqmzgg.github.io/post/wang-zhan.html</link><description># 网站收藏   &#13;
 &#13;
 ### 博客&amp;周刊&#13;
 &#13;
@@ -92,7 +92,7 @@ http://530.my3v.work/99668.json&#13;
 - [Image Upload - SM.MS ](https://sm.ms/)&#13;
 - [路过图床 ](https://imgse.com/)&#13;
 ### 浏览&amp;插件&#13;
-- [油小猴](https://www.youxiaohou.com/)。</description><guid isPermaLink="true">https://blog.meekdai.com/post/wang-zhan.html</guid><pubDate>Tue, 12 Mar 2024 03:18:42 +0000</pubDate></item><item><title>安卓</title><link>https://blog.meekdai.com/post/an-zhuo.html</link><description>&#13;
+- [油小猴](https://www.youxiaohou.com/)。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/wang-zhan.html</guid><pubDate>Tue, 12 Mar 2024 03:18:42 +0000</pubDate></item><item><title>安卓</title><link>https://cqmzgg.github.io/post/an-zhuo.html</link><description>&#13;
 &#13;
 ## 电视盒子软件&#13;
 &#13;
@@ -150,4 +150,4 @@ TVBOX 接口&#13;
 &gt; &#13;
 &#13;
 &#13;
-。</description><guid isPermaLink="true">https://blog.meekdai.com/post/an-zhuo.html</guid><pubDate>Tue, 12 Mar 2024 03:17:11 +0000</pubDate></item></channel></rss>
+。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/an-zhuo.html</guid><pubDate>Tue, 12 Mar 2024 03:17:11 +0000</pubDate></item></channel></rss>
