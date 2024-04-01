@@ -4,7 +4,7 @@
     "subTitle":"不要假装努力，结果不会陪你演戏。",
     "homeUrl":"https://cqmzgg.github.io",
     "avatarUrl":"https://static.meekdai.com/avatar.svg",
-    "faviconUrl":"https://static.meekdai.com/avatar.svg",
+    "faviconUrl":"https://static.meekdai.com/favicon.svg",
     "singlePage":["link","about"],
     "email":"cqmzgg@126.com",
     "startSite":"12/12/2023",
@@ -14,5 +14,5 @@
     "i18n":"CN",
     "nightTheme":"dark_colorblind",
     "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"main"
 }
