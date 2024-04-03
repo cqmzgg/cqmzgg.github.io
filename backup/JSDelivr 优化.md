@@ -21,4 +21,15 @@ JSDelivr 是由 @Cloudflare 提供的免费开源公共 CDN。默认的提供的
 
 这些节点同步速度不同，但都需要准确的版本号。
 总的来说，选择合适的 JSDelivr 节点可以提高项目在国内的可用性。如果您需要更多帮助，请随时告诉我。
-#JSDelivr CDN 加速
+
+**Github加速站-Github镜像**
+
+- https://gh.mzec.top/
+- https://gh.mixyun.cyou/
+- https://mirror.ghproxy.com/
+- https://git.domob.org/
+- http://www.subook.link:88/
+- https://uhk.corpa.me/
+- https://ghproxy.053000.xyz/ 
+- https://gh.nxnow.top/
+- 
