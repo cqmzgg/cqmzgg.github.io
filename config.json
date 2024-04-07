@@ -14,5 +14,6 @@
     "i18n":"CN",
     "nightTheme":"dark_colorblind",
     "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
+    "style":"<link rel='stylesheet' crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Medium.min.css' /> <link rel='stylesheet' crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Bold.min.css' /> <style>.markdown-body{font-family: MiSans, sans-serif;}</style>"，
     "GMEEK_VERSION":"last"
 }
