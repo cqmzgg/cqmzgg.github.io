@@ -30,10 +30,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 .SideNav{min-width: 360px;}
 .SideNav-icon{margin-right: 16px}
-.SideNav-item .Label{color: #fff;margin-left:8px;}
+.SideNav-item .Label{color: #fff;margin-left:4px;}
 .d-flex{min-width:0;}
 .listTitle{overflow:hidden;white-space:nowrap;text-overflow: ellipsis;max-width: 100%;}
-.listLabels{white-space:nowrap;}
+.listLabels{white-space:nowrap;display:flex;}
 .listLabels object{max-height:16px;max-width:24px;}
 
 @media (max-width: 600px) {
@@ -51,30 +51,31 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h1>
     <img src="https://cqmzgg.s3.bitiful.net/logo.svg" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">🇲‍z-Blog</a></h1>
 <div class="title-right">
-    <a href="https://cqmzgg.github.io/tag.html"><button id="buttonSearch" class="btn btn-invisible circle" title="搜索">
+    <a href="https://cqmzgg.github.io/tag.html" id="buttonSearch" class="btn btn-invisible circle" title="搜索">
         <svg class="octicon" width="16" height="16" >
             <path id="pathSearch" fill-rule="evenodd"></path>
         </svg>
-    </button></a>
-    <a href="https://cqmzgg.github.io/link.html"><button class="btn btn-invisible circle" title="链接">
+    </a>
+    
+    <a href="https://cqmzgg.github.io/link.html" class="btn btn-invisible circle" title="链接">
         <svg class="octicon" width="16" height="16" >
             <path id="链接" fill-rule="evenodd"></path>
         </svg>
-    </button></a><a href="https://cqmzgg.github.io/about.html"><button class="btn btn-invisible circle" title="关于">
+    </a><a href="https://cqmzgg.github.io/about.html" class="btn btn-invisible circle" title="关于">
         <svg class="octicon" width="16" height="16" >
             <path id="关于" fill-rule="evenodd"></path>
         </svg>
-    </button></a>
-    <a href="https://cqmzgg.github.io/rss.xml" target="_blank"><button id="buttonRSS" class="btn btn-invisible circle" title="RSS">
+    </a>
+    <a href="https://cqmzgg.github.io/rss.xml" target="_blank" id="buttonRSS" class="btn btn-invisible circle" title="RSS">
         <svg class="octicon" width="16" height="16" >
             <path id="pathRSS" fill-rule="evenodd"></path>
         </svg>
-    </button></a>
-    <button class="btn btn-invisible circle" onclick="modeSwitch()" title="切换主题">
+    </a>
+    <a class="btn btn-invisible circle" onclick="modeSwitch()" title="切换主题">
         <svg class="octicon" width="16" height="16" >
             <path id="themeSwitch" fill-rule="evenodd"></path>
         </svg>
-    </button>
+    </a>
 </div>
 </div>
     <div id="content">
@@ -233,6 +234,8 @@ for(var i=0;i<iconTOP.length;i++){
 for(var i=0;i<iconPost.length;i++){
     iconPost[i].setAttribute("d",IconList["post"]);
 }
+
+
 
 document.getElementById("链接").setAttribute("d",value=IconList["link"]);document.getElementById("关于").setAttribute("d",value=IconList["about"]);
 </script>
