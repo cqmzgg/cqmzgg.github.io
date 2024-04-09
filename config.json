@@ -1,5 +1,4 @@
 {
-    "script":"<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>",
     "title":"码字日记",
     "displayTitle":"Mz-Blog",
     "subTitle":"不要假装努力，结果不会陪你演戏。",
@@ -13,6 +12,7 @@
     "commentLabelColor":"#006b75",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "i18n":"CN",
+    "script":"<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>",
     "nightTheme":"dark_colorblind",
     "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
     "GMEEK_VERSION":"last"
