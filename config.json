@@ -1,4 +1,5 @@
 {
+    "script":"<script async src='https://busuanzi.sukap.cn/busuanzi.pure.mini.js'></script>",
     "title":"码字日记",
     "displayTitle":"Mz-Blog",
     "subTitle":"不要假装努力，结果不会陪你演戏。",
@@ -14,6 +15,5 @@
     "i18n":"CN",
     "nightTheme":"dark_colorblind",
     "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
-    "script":"<script async src='https://busuanzi.sukap.cn/busuanzi.pure.mini.js'></script>",
     "GMEEK_VERSION":"last"
 }
