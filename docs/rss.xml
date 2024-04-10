@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Wed, 10 Apr 2024 05:44:22 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>直播源</title><link>https://cqmzgg.github.io/post/zhi-bo-yuan.html</link><description>### 2024-4-29 &#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Wed, 10 Apr 2024 06:09:21 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>直播源</title><link>https://cqmzgg.github.io/post/zhi-bo-yuan.html</link><description>### 2024-4-29 &#13;
 ```&#13;
 https://testingcf.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u&#13;
 https://iptv.228088.xyz/cn.m3u&#13;
@@ -354,11 +354,8 @@ markdown 编辑器[bluenote](https://www.bluemd.me/)&#13;
  怎么添加网站访问统计，&#13;
 &lt;/details&gt;&#13;
 &#13;
-&#13;
-&#13;
-&#13;
 &lt;span id="busuanzi"&gt;&#13;
-:heart:感谢第&lt;span&gt;Loading&lt;/span&gt;小伙伴的&lt;span&gt;Loading&lt;/span&gt;次访问本网站。</description><guid isPermaLink="true">https://cqmzgg.github.io/about.html</guid><pubDate>Tue, 12 Mar 2024 05:02:09 +0000</pubDate></item><item><title>链接</title><link>https://cqmzgg.github.io/link.html</link><description>- **[meekdai](https://blog.meekdai.com/)**&#13;
+  :heart:感谢第&lt;span class="busuanzi_value_site_uv"&gt;Loading&lt;/span&gt;位小伙伴的&lt;span class="busuanzi_value_site_pv"&gt;Loading&lt;/span&gt;次访问本网站。</description><guid isPermaLink="true">https://cqmzgg.github.io/about.html</guid><pubDate>Tue, 12 Mar 2024 05:02:09 +0000</pubDate></item><item><title>链接</title><link>https://cqmzgg.github.io/link.html</link><description>- **[meekdai](https://blog.meekdai.com/)**&#13;
 &#13;
 友链~~&#13;
 欢迎加入&#13;
