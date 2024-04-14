@@ -1,5 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Fri, 12 Apr 2024 10:01:54 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>直播源</title><link>https://cqmzgg.github.io/post/zhi-bo-yuan.html</link><description>### 2024-4-12&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Sun, 14 Apr 2024 22:25:27 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>789X路由</title><link>https://cqmzgg.github.io/post/789X-lu-you.html</link><description>789X路由&#13;
+目前支持以下设备：&#13;
+&#13;
+- ABT ASR3000&#13;
+- CETRON CT3003&#13;
+- CMCC A10&#13;
+- CMCC RAX3000M eMMC/NAND&#13;
+- GL-iNet GL-MT6000&#13;
+- H3C Magic NX30 Pro&#13;
+- Imou LC-HX3001&#13;
+- JCG Q30 (Pro) / CMCC MR3000D-CIq&#13;
+- JDCloud RE-CP-03&#13;
+- Nokia EA0326GMP&#13;
+- Qihoo 360T7&#13;
+- Ruijie RG-X60 Pro&#13;
+- TP-Link TL-XDR4288/6086/6088&#13;
+- Xiaomi Mi Router AX3000T&#13;
+- Xiaomi Mi Router WR30U&#13;
+- Xiaomi Redmi Router AX6000&#13;
+下载地址：https://drive.wrt.moe/uboot/mediatek。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/789X-lu-you.html</guid><pubDate>Sun, 14 Apr 2024 09:51:44 +0000</pubDate></item><item><title>直播源</title><link>https://cqmzgg.github.io/post/zhi-bo-yuan.html</link><description>### 2024-4-12&#13;
 https://live.zhoujie218.top/&#13;
 https://zgq-inc.github.io/source/&#13;
 https://github.com/Troray/IPTV&#13;
