@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Mon, 15 Apr 2024 05:17:08 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>789X路由</title><link>https://cqmzgg.github.io/post/789X-lu-you.html</link><description>789X路由  &#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Mon, 15 Apr 2024 05:18:11 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>路由器</title><link>https://cqmzgg.github.io/post/lu-you-qi.html</link><description>789X路由  &#13;
 目前支持以下设备：&#13;
 &#13;
 - ABT ASR3000&#13;
@@ -21,7 +21,7 @@
     下载地址：[https://drive.wrt.moe/uboot/mediatek](https://drive.wrt.moe/uboot/mediatek)&#13;
 &#13;
 &gt; 摘至 [联发科Filogic820/830等ARM架构方案（MT7986/7981/7622）路由器列表-无线路由器硬件改造以及故障维修-恩山无线论坛](https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8304371&amp;highlight=7986)&#13;
-联发科用MT7621辉煌了很久，但是毕竟MIPS架构，又这么多年了，未来一定是ARM架构的天下了，非专业大胆分析一下，说的不对的大家可以指正。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/789X-lu-you.html</guid><pubDate>Sun, 14 Apr 2024 09:51:44 +0000</pubDate></item><item><title>直播源</title><link>https://cqmzgg.github.io/post/zhi-bo-yuan.html</link><description>### 2024-4-12&#13;
+联发科用MT7621辉煌了很久，但是毕竟MIPS架构，又这么多年了，未来一定是ARM架构的天下了，非专业大胆分析一下，说的不对的大家可以指正。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/lu-you-qi.html</guid><pubDate>Sun, 14 Apr 2024 09:51:44 +0000</pubDate></item><item><title>直播源</title><link>https://cqmzgg.github.io/post/zhi-bo-yuan.html</link><description>### 2024-4-12&#13;
 https://live.zhoujie218.top/&#13;
 https://zgq-inc.github.io/source/&#13;
 https://github.com/Troray/IPTV&#13;
