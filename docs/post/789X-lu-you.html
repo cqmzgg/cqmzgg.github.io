@@ -11,7 +11,7 @@
     </script>
 <meta name="description" content="789X路由">
 <title>789X路由</title>
-
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 </head>
 <style>
@@ -85,7 +85,116 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li>Xiaomi Mi Router WR30U</li>
 <li>Xiaomi Redmi Router AX6000<br>
 下载地址：<a href="https://drive.wrt.moe/uboot/mediatek" rel="nofollow">https://drive.wrt.moe/uboot/mediatek</a></li>
-</ul></div>
+</ul>
+<blockquote>
+<p>摘至 <a href="https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8304371&amp;highlight=7986" rel="nofollow">联发科Filogic820/830等ARM架构方案（MT7986/7981/7622）路由器列表-无线路由器硬件改造以及故障维修-恩山无线论坛</a><br>
+联发科用MT7621辉煌了很久，但是毕竟MIPS架构，又这么多年了，未来一定是ARM架构的天下了，非专业大胆分析一下，说的不对的大家可以指正。</p>
+</blockquote>
+<p>无线路由器主板上大概会贴这些芯片：<br>
+CPU、内存、存储芯片、交换芯片（以太网卡）、2.4G/5G基带芯片（处理数字信号）、2.4G/5G射频芯片（处理模拟信号）、2.4G/5G FEM芯片（个人理解为功放）</p>
+<p>随着工艺和设计的进步，其他芯片有些可以和CPU集成到一个芯片里，叫做SoC芯片<br>
+我理解是同样的功能，用的芯片越少成本越低，就看厂商怎么集成了</p>
+<p>一、MediaTek Filogic 820平台，双核Cortex-A53</p>
+<p>1.1 MT7981B 主频1.3G，把CPU、2.4G/5G基带芯片做到一起了</p>
+<p>MT7976CN把2.4G/5G射频芯片、2.4G/5G FEM芯片，也做到一起了<br>
+加上内存芯片、存储芯片、千兆交换芯片，5个芯片全部搞定，功能齐全，所以可以做到成本很低，性能也不差，个人估计这个方案将会接替7621。</p>
+<p>品牌	型号	存储	备注<br>
+360	T7/T7U/T7M16	256+128<br>
+JCG	Q30Pro	256+128<br>
+康佳	KOMI A31	256+128<br>
+思创CETRON	CT3003	256+128<br>
+创联腾	CLT-R30B1	256+128<br>
+安博通	ASR3000	256+128<br>
+乐橙	LC-HX3001	256+128<br>
+诺基亚贝尔	EA0326GMP	256+128<br>
+荣耀	XT50	256+128<br>
+中国移动	WMA301 V2.0	256+128	V1是高通<br>
+中国移动	A10	256+128<br>
+中国移动	RAX3000M	512+128	USB 3.0 + DDR4<br>
+中国移动	RAX3000M算力版	512+64G	USB 3.0 + DDR4 + emmc<br>
+中国移动	XR30	512+128	USB 3.0 + DDR4<br>
+中国移动	RAX3000Z增强版	512+64G	USB 3.0 + DDR4 + emmc<br>
+中移物联	MR3000D-CIq	512+128<br>
+新大路	NL-WR8103	256+128？<br>
+新大路	NL-WR9103	256+128<br>
+小米	WR30T/U/M	256+128<br>
+小米	AX3000T	256+128<br>
+小米	AX3000NE	256+128	WR30U的台版<br>
+H3C	NX30Pro	256+128<br>
+华硕	RT-AX57M（热血版）	256+128	独立FEM<br>
+华硕	RT-AX57 GO	512+128	DDR4 + USB 3.2 + TYPE-C供电（9V）<br>
+GL.iNet	GL-MT3000	512+256	USB 3.0 + 2.5G + DDR4<br>
+GL.iNet	GL-MT2500	1024+8G	USB 3.0 + 2.5G + DDR4（软路由）<br>
+爱快	IK-Q3000	512+128<br>
+TP-Link	XDR3020 V2.0	256+16<br>
+TP-Link	XDR3030	256+16<br>
+锐捷	蜂鸟H30	256	独立FEM<br>
+Cudy	WR3000 V1	256+16<br>
+表里小米WR30之前是运营商款，运营商款的方案不能说大同小异，简直是一模一样，小米AX3000T之后是零售版，AX3000T会买的话已经可以到150以内了，所以我觉得运营商版要么降到100以内，不然就没什么性价比了。</p>
+<p>1.2 MT7981A好像还有这个型号，主频是1.8G，不知道后期会不会有这个平台的产品</p>
+<p>二、MediaTek Filogic 830平台，四核 Cortex-A53</p>
+<p>2.1 MT7986A 主频2.0G，这款就是定位中端的，集成了2.4G/5G基带芯片</p>
+<p>中高端路由器rf和fem芯片不太会用集成的，基本都上独立的，大家都相信独立的信号会更好<br>
+内存芯片、存储芯片、千兆交换芯片这些是跑不掉的，可能还要上2.5G phy芯片</p>
+<p>品牌	型号	存储	备注<br>
+红米	AX6000	512+128	DDR4<br>
+锐捷	天蝎X60 PRO	512+128	2.5G<br>
+磊科<br>
+N60	256+128	2.5G<br>
+GL.iNet<br>
+GL-MT6000<br>
+1024+8G	USB 3.0 + 2.5G×2 + DDR4<br>
+京东云	无线宝AX6000百里	1024 + 64G/128G	2.5G + EMMC  + DDR4<br>
+爱快	IK-Q6000<br>
+512 + 128	2.5G + DDR4<br>
+华硕	天选TX-AX6000	512+256	USB 3.0 + 2.5G×2<br>
+华硕	RT-AX59U	512+128	USB 3.0<br>
+华硕	小旋风Pro AX4200Q	512+256	USB 3.0 + 2.5G×2<br>
+TP-LINK	XTR8488	1024 +128	三频 + USB 3.0 + 2.5G×2  + DDR4<br>
+TP-LINK	XDR4288	512+128	USB 3.0 + 2.5G×2<br>
+TP-LINK	XDR6086	512 +128	USB 3.0 + 2.5G×2<br>
+TP-LINK	XDR6088	512 +128	USB 3.0 + 2.5G×2<br>
+网件	WAX220<br>
+1024 +128</p>
+<p>2.2 MT7986B 主频1.6G，集成512M DDR3内存，集成了2.4G/5G基带芯片</p>
+<p>2.4G/5G射频芯片会分开，FEM芯片可能会用集成的<br>
+还需要存储芯片、千兆交换芯片、2.5G phy芯片，其实我觉得这个方案可以出个四核CPU，高性价比的AX6000产品，但是好像除了tp没人选。</p>
+<p>品牌	型号	存储	备注<br>
+TP-LINK	XDR6000	512+16<br>
+TP-LINK	XDR6078	512+16	2.5G×2<br>
+TP-LINK	XDR6010	512+16（128 V2.0）<br>
+TP-LINK	XDR6020	512+16<br>
+TP-LINK	XDR6050	512+16<br>
+TP-LINK	XAP6030GI	512+16<br>
+MERCUSYS<br>
+MR90X<br>
+512+128</p>
+<p>三、其他方案<br>
+3.1 MT7622B双核1.35GHz，A53架构，集成了2.4G基带和百兆交换芯片</p>
+<p>需要5G基带芯片、射频芯片、FEM芯片<br>
+关键没人会用里面的百兆交换芯片，还要上独立的千兆交换芯片<br>
+内存芯片、存储芯片也不能少，所以这个方案我不看好</p>
+<p>以下都是7622的老款，可以不看<br>
+品牌	型号	存储	备注<br>
+红米	AX6S	256+128<br>
+Linksys	E8450	512+16	USB<br>
+TP-LINK	XDR3250	256+16<br>
+TP-LINK	XDR3230	256+16<br>
+水星	X32G	256+16<br>
+锐捷	星耀X32	256+16<br>
+锐捷	星耀X32 PRO	256+16<br>
+锐捷	星耀M32</p>
+<p>3.2 看表格里应该还有一款A73核WiFi7的芯片，目前没见到相关产品</p>
+<p>整理备忘，欢迎补充</p>
+<p>四、说一下个人观点，大部分没用过，单看参数和价格分析，利益无关，但是对小米的产品有偏好。<br>
+1、MT7981B个人比较看好移动定制的RAX3000M，尤其是emmc版本，一是512M的DDR4内存比其他款大，二是64G存储能做很多事，三是带USB口，某鱼炒的有点高，如果能大量上市或者出个零售版的话，长期看好这款；<br>
+2、MT7981B特点是低成本WiFi6的3000M，其他款大部分是运营商的，最近出了一款MR3000D-CIq，原生512内存，对内存有执念的可以考虑，不太好买，其他运营商款价格100左右，想玩挑个便宜的，买之前论坛里找好固件；<br>
+3、MT7981B零售版里小米AX3000T价格比较合适，目前开ssh和固件都放出来了，其实用小米官方系统也是一个不错的选择，价格合适可以考虑，主要是有保修；<br>
+4、MT7981B运营商版本里大佬们比较推荐WR30U，一是5根天线，没有妥协，信号比较好，二是散热设计相对合理；<br>
+5、MT7986A里红米AX6000价格大概400以内，可以开ssh，可惜没有2.5G网口，其实2.5G口个人觉得意义也不大，毕竟家庭用千兆满速也应该够了，如果没有USB需求，我觉得可以考虑；<br>
+6、MT7986A里爱快Q6000最近到400以内了，带2.5G口，性价比不错，喜欢爱快系统做主路由的可以考虑。<br>
+联发科主打性价比、固件多，个人觉得mtk平台价格高的可以不考虑。</p>
+<p>高通看这篇，<a href="https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8306906&amp;page=1" rel="nofollow">高通WiFi6方案（ipq50XX/60XX/8XXX）路由器分类梳理-无线路由器硬件改造以及故障维修-恩山无线论坛</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
