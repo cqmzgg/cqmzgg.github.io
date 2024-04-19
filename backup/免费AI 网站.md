@@ -1,8 +1,6 @@
 **免费 ChatGPT 4 服务：**
 
-https://t.me/clbfxs/4724
 https://ai.caifree.com/
-https://t.me/clbfxs/4741
 https://chat.caifree.com/
 https://lobe.caifree.com/ 
 https://sharedchat.cn
