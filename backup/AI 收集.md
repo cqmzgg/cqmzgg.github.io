@@ -1,11 +1,11 @@
->摘自 https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb
 
+>摘自 https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb
 ##  AI精选工具库​
 >精选，我觉得是最能描述这个工具库的两个字；目前工具库总计18个模块100款工具。
 >过度冗余的信息会降低人的体验，所以我想把我在用看过的好用的AI产品汇总一下，于是有了这个工具库​
 >🍭友情提示：PC端使用体验更佳，加[⭐️](https://chat.openai.com/)产品代表强烈推荐；点击蓝色文字即可跳转工具面~
 
-工具库快捷跳转链接​
+### 工具库快捷跳转链接​
 
 [🍎 尝鲜软件推荐](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#VEM8dc9cWo18WRxeMIbcxMtVnub)：近期值得尝鲜的软件​
 [🏅 博主常用软件推荐](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#OjQndsyoKoLnjpxJkaBcC7S5ngb)：生活中高频使用的工具汇总​
@@ -15,19 +15,19 @@
 [📖 优质信息汇总](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#YpMRd0gyTop7lsxIW3Nclza9nce)：优质的AI信息渠道推荐​
 
 ### 尝鲜软件推荐（每周一下午6点更新）
-- 聚合了很多AI功能的浏览器​[360AI浏览器](https://browser.360.cn/ai/?src=se)​
-- 搭建一个属于你自己的机器人吧​[Dify](https://cloud.dify.ai/)​
-- ​可以把文档总结后、生成一张长图​[跃问一图就懂](https://stepchat.cn/textposter)​
-- 通过声音对话的AI陪伴助手​[hume](https://demo.hume.ai/)​
-- AI购物助手，通过视频和评论辅助购​[Lumona](https://www.lumona.ai/)​
+- ​[360AI浏览器](https://browser.360.cn/ai/?src=se)聚合了很多AI功能的浏览器​
+- ​[Dify](https://cloud.dify.ai/)搭建一个属于你自己的机器人吧​
+- ​[跃问一图就懂](https://stepchat.cn/textposter)​可以把文档总结后、生成一张长图​
+- ​[hume](https://demo.hume.ai/)通过声音对话的AI陪伴助手​
+- [Lumona](https://www.lumona.ai/)AI购物助手，通过视频和评论辅助购​​
 
 ### 博主常用软件推荐​
 
-- 超好用的音频视频转文字、总结工具​[通义听悟](https://tingwu.aliyun.com/u/o4l6xqaza3e9m2y8)​
-- 目前已知最强的人工智能产品​[ChatGPT](https://chat.openai.com/)​
-- 国货之光​，支持20万上下文​[Kimi](https://kimi.moonshot.cn/)​
-- AI搜索工具，支持多渠道信息检索​[Perplexity](https://www.perplexity.ai/)​
-- 直接给到你想要的答案，再也不看广告[秘塔AI搜索](https://metaso.cn/)​
+- ​[通义听悟](https://tingwu.aliyun.com/u/o4l6xqaza3e9m2y8)超好用的音频视频转文字、总结工具​
+- ​[ChatGPT](https://chat.openai.com/)目前已知最强的人工智能产品​
+- ​[Kimi](https://kimi.moonshot.cn/)国货之光​，支持20万上下文​
+- ​[Perplexity](https://www.perplexity.ai/)AI搜索工具，支持多渠道信息检索​
+- [秘塔AI搜索](https://metaso.cn/)直接给到你想要的答案，再也不看广告​
 
 ## 一、内容生成工具​
 > AI对话产品​
@@ -102,6 +102,7 @@
 8. [Animate Anyone](https://humanaigc.github.io/animate-anyone/)：由阿里巴巴智能计算研究院开发的一款开源框架，专注于将静态图像中的角色或人物动态化​
 9. [Genmo](https://www.genmo.ai/)：国外AI视频产品，通过上传图像和文字来生成高清视频，能够产出1080p至2K分辨率的高清视频内容​
 10. [DomoAI](https://domoai.app/)：国外AI视频产品，可以把你的视频转化成各种风格：动漫、卡通、像素等多种风格
+
 ## 二、效率工具
 
 ### 音频、视频总结​
@@ -189,20 +190,18 @@
 1. [⭐️ 42章经](https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98)：高质量AI访谈对话播客，可以听到很多AI创业者的深度访谈​
 2. [OnBoard](https://www.xiaoyuzhoufm.com/podcast/61cbaac48bb4cd867fcabe22)：专注AI领域的播客节目，分享行业洞见、前沿技术和市场趋势​
 
-​
-
 ### 社区​
 
 1. [⭐️ 即刻AI探索站](https://web.okjike.com/topic/63579abb6724cc583b9bba9a)：国内质量最高的AI社区，有很多大咖在分析最新和高质量的AI信息​
 2. [魔搭社区](https://www.modelscope.cn/home)：魔搭是一个开源的模型即服务共享平台，为AI开发者提供灵活、易用、低成本的一站式模型服务产品​
-
 
 ### 公众号​
 
 1. [⭐️ Super黄的念想](https://mp.weixin.qq.com/s/R9-3Drlt1foX3M7Wx-JOYQ)：AI产品专业分析账户，有着非常精彩的产品分析文章​
 2. [⭐️ hanniman](https://mp.weixin.qq.com/s/YU73KVWQWoBDL_l0KnDTXA)：AI行业产品老兵，有着非常不错的行业判断文章​
 3. [⭐️ 云舒的AI观察笔记](https://mp.weixin.qq.com/s/kPHGgEIqlscaruh3RTpSGw)：AI精选工具站作者，产品经理老兵，会写很多AI相关的产品内容
-# **免费 ChatGPT 4 服务：**
+
+##  **免费 ChatGPT 4 服务：**
 
 https://ai.caifree.com/
 https://chat.caifree.com/
@@ -212,7 +211,8 @@ https://gpt4fr.ee/ （只有 ChatGPT 4 服务）
 https://home.topai.vip/ 
 https://aitopk.com/list 
 https://share.freegpts.org/list 
-https://chat.3211000.xyz/ ； https://copilot.3211000.xyz/
+https://chat.3211000.xyz/ ；
+https://copilot.3211000.xyz/
 https://aifree.best/
 https://gpt.iil.im/
 https://chat.p1ay.top/
@@ -230,7 +230,6 @@ https://chat.caifree.com/
 https://app.nextchat.dev/
 https://free.644566.xyz/
 https://ai.jaze.top/
-
 https://agi.ylsap.com/
 https://ibcl.us/ChatGemini/
 https://gemini-chat.pro/#/
