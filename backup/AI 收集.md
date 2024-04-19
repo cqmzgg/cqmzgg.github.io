@@ -1,4 +1,6 @@
-
+---
+dg-publish: true
+---
 >摘自 https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb
 ##  AI精选工具库​
 >精选，我觉得是最能描述这个工具库的两个字；目前工具库总计18个模块100款工具。
@@ -7,12 +9,15 @@
 
 ### 工具库快捷跳转链接​
 
-[🍎 尝鲜软件推荐](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#VEM8dc9cWo18WRxeMIbcxMtVnub)：近期值得尝鲜的软件​
-[🏅 博主常用软件推荐](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#OjQndsyoKoLnjpxJkaBcC7S5ngb)：生活中高频使用的工具汇总​
-[🎇 内容生成工具](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#QqbhdRs4PoZrr2xeBCZcoaeWnYc)：AI来进行内容生成、对话的工具​
-[🚴‍♂️ 效率工具](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#WIQSdKLusohG9IxKWIdc3KWbncb)：通过AI工具来提升自己的工作效率​
-[⛪️ 企业提效工具](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#CC6OdvY3oolh6NxHTJpcQTEHn0c)：企业级的提效应用软件​
-[📖 优质信息汇总](https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb?fromScene=spaceOverview&table=tbljePapzS042rYz&view=vewtjAZVsI#YpMRd0gyTop7lsxIW3Nclza9nce)：优质的AI信息渠道推荐​
+- [🍎 尝鲜软件推荐](#尝鲜软件推荐 )：近期值得尝鲜的软件​
+- [🏅 博主常用软件推荐](#博主常用软件推荐)：生活中高频使用的工具汇总​
+- [🎇 内容生成工具](#内容生成工具)：AI来进行内容生成、对话的工具​
+- [🚴‍♂️ 效率工具](#效率工具)：通过AI工具来提升自己的工作效率​
+- [⛪️ 企业提效工具](#企业提效工具)：企业级的提效应用软件​
+- [📖 优质信息汇总](#优质信息汇总)：优质的AI信息渠道推荐​
+- [免费ChatGPT4](#免费ChatGPT4)
+- [免费ChatGPT3.5](#免费ChatGPT3.5)
+
 
 ### 尝鲜软件推荐（每周一下午6点更新）
 - ​[360AI浏览器](https://browser.360.cn/ai/?src=se)聚合了很多AI功能的浏览器​
@@ -201,7 +206,7 @@
 2. [⭐️ hanniman](https://mp.weixin.qq.com/s/YU73KVWQWoBDL_l0KnDTXA)：AI行业产品老兵，有着非常不错的行业判断文章​
 3. [⭐️ 云舒的AI观察笔记](https://mp.weixin.qq.com/s/kPHGgEIqlscaruh3RTpSGw)：AI精选工具站作者，产品经理老兵，会写很多AI相关的产品内容
 
-##  **免费 ChatGPT 4 服务：**
+### 免费ChatGPT4 
 
 https://ai.caifree.com/
 https://chat.caifree.com/
@@ -224,7 +229,8 @@ https://lobe.wisdgod.com/ （密码：Free）
 https://chat.flss.world/ （密码：aurora）
 https://agi.ylsap.com/ 
 
-**免费 ChatGPT 3.5 服务：**
+### 免费ChatGPT3.5
+
 https://chat.rawchat.cc/
 https://chat.caifree.com/
 https://app.nextchat.dev/
