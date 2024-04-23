@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Tue, 23 Apr 2024 06:27:21 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>语言学</title><link>https://cqmzgg.github.io/post/yu-yan-xue.html</link><description>把“哈哈哈”改成“你真有趣”&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Tue, 23 Apr 2024 06:28:13 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>语言学</title><link>https://cqmzgg.github.io/post/yu-yan-xue.html</link><description>把“哈哈哈”改成“你真有趣”&#13;
 &#13;
 把“卧槽”改成“千言万语在我心”&#13;
 &#13;
@@ -147,12 +147,12 @@ dg-publish: true&#13;
 	1. 源地址：`https://github.com/hujingguang/ChinaIPTV` ➡中国电视直播源 cnTV m3u（实时更新,长期有效）&#13;
 &#13;
 5. https://testingcf.jsdelivr.net/gh/hinsky/IPv6TV@main/&#13;
-	1. 源地址：`https://github.com/hinsky/IPv6TV`  ➡搜集的ipv6电视直播源，自用。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/bo-fang-yuan.html</guid><pubDate>Tue, 09 Apr 2024 10:11:03 +0000</pubDate></item><item><title>AI 收集</title><link>https://cqmzgg.github.io/post/AI%20-shou-ji.html</link><description>---&#13;
+	1. 源地址：`https://github.com/hinsky/IPv6TV`  ➡搜集的ipv6电视直播源，自用。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/bo-fang-yuan.html</guid><pubDate>Tue, 09 Apr 2024 10:11:03 +0000</pubDate></item><item><title>AI 合集</title><link>https://cqmzgg.github.io/post/AI%20-he-ji.html</link><description>---&#13;
 dg-publish: true&#13;
 ---&#13;
 &gt;摘自 https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb&#13;
 ##  AI精选工具库​&#13;
-&gt;精选，我觉得是最能描述这个工具库的两个字；目前工具库总计18个模块100款工具。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/AI%20-shou-ji.html</guid><pubDate>Wed, 03 Apr 2024 08:47:25 +0000</pubDate></item><item><title>JSDelivr 优化</title><link>https://cqmzgg.github.io/post/JSDelivr%20-you-hua.html</link><description>JSDelivr 是由 @Cloudflare 提供的免费开源公共 CDN。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/JSDelivr%20-you-hua.html</guid><pubDate>Tue, 02 Apr 2024 04:21:00 +0000</pubDate></item><item><title>2024年4月</title><link>https://cqmzgg.github.io/post/2024-nian-4-yue.html</link><description>&#13;
+&gt;精选，我觉得是最能描述这个工具库的两个字；目前工具库总计18个模块100款工具。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/AI%20-he-ji.html</guid><pubDate>Wed, 03 Apr 2024 08:47:25 +0000</pubDate></item><item><title>JSDelivr 优化</title><link>https://cqmzgg.github.io/post/JSDelivr%20-you-hua.html</link><description>JSDelivr 是由 @Cloudflare 提供的免费开源公共 CDN。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/JSDelivr%20-you-hua.html</guid><pubDate>Tue, 02 Apr 2024 04:21:00 +0000</pubDate></item><item><title>2024年4月</title><link>https://cqmzgg.github.io/post/2024-nian-4-yue.html</link><description>&#13;
 ### 4 月 8 日&#13;
 AI 推荐&#13;
 - [DeepSeek | 深度求索](https://www.deepseek.com/)&#13;
