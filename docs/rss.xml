@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Tue, 23 Apr 2024 06:26:05 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>语言学</title><link>https://cqmzgg.github.io/post/yu-yan-xue.html</link><description>把“哈哈哈”改成“你真有趣”&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Tue, 23 Apr 2024 06:27:21 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>语言学</title><link>https://cqmzgg.github.io/post/yu-yan-xue.html</link><description>把“哈哈哈”改成“你真有趣”&#13;
 &#13;
 把“卧槽”改成“千言万语在我心”&#13;
 &#13;
@@ -98,8 +98,8 @@ dg-publish: true&#13;
 ### Tvbox 源&#13;
 1. `https://gitee.com/hailin886/fty/raw/master/tvbox/aishang.json`&#13;
 2. `https://raw.liucn.cc/box/m.json`&#13;
-3. `https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json`  \\天高流云&#13;
-4. `http://xhww.fun/小米/DEMO.json`  \\小米&#13;
+3. `https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json`  ➡天高流云&#13;
+4. `http://xhww.fun/小米/DEMO.json`  ➡小米&#13;
 5. `https://mirror.ghproxy.com/https://raw.githubusercontent.com/supermeguo/BoxRes/main/Myuse/catcr.json`&#13;
 6.   `http://www.wya6.cn/tv/yc.json`&#13;
 &#13;
