@@ -3,6 +3,9 @@ dg-publish: true
 ---
 ###  AI最新
 - [海螺AI—MiniMax 旗下生产力产品，你的AI伙伴](https://hailuoai.com/)
+- [onima](https://onima.oksocool.com/)
+- [AI Search](https://isou.chat/)
+- [⭐ Kimi](https://kimi.moonshot.cn/)
 
 
 >摘自 https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb
@@ -26,13 +29,12 @@ dg-publish: true
 ###   直接对话的机器人​
 
 1. [⭐ChatGPT](https://chat.openai.com/)：国外大模型，AI赛道行业引领者；GPT4.0支持多模态，可以访问网站、接受文件、识别图片，并且能够生成图片，能够制作专属GPTs​
-2. [⭐ Kimi](https://kimi.moonshot.cn/)：国内大模型，支持联网搜索、图片识别、文件上传等功能，支持20万长文本的上下文（200万长文本的上下文正在内测中）​
-3. [⭐Google Al Studio](https://aistudio.google.com/)：国外大模型Gemini，在图片识别和视频识别上具有非常不错的效果，暂不支持多模态生成​
-4. [智谱清言](https://chatglm.cn/)：国产大模型，GLM4支持多模态功能，可以将高频使用内容设置为GLMs​
-5. [Claude](https://claude.ai/)：国外大模型，新发布的claude3支持最多100万文本的输入，大模型质量只追GPT4​
-6. [豆包](https://www.doubao.com/)：字节跳动的国产大模型：云雀，语音输入效果较为不错​
-7. [Poe](https://poe.com/)：聚合GPT、Claude 等多个大模型，如果想20刀用多个大模型，可以考虑开poe的会员，但无GPTs等功能​
-8. [跃问](https://stepchat.cn/)：国产大模型，有着不错的图片解析能力，但不具备图片生成能力，长文档审核相对较严；一图就懂功能可以直接把一个文档/链接变成一张长图，功能体验还不错（[一图就懂](https://stepchat.cn/textposter)）​ 
+2. [⭐Google Al Studio](https://aistudio.google.com/)：国外大模型Gemini，在图片识别和视频识别上具有非常不错的效果，暂不支持多模态生成​
+3. [智谱清言](https://chatglm.cn/)：国产大模型，GLM4支持多模态功能，可以将高频使用内容设置为GLMs​
+4. [Claude](https://claude.ai/)：国外大模型，新发布的claude3支持最多100万文本的输入，大模型质量只追GPT4​
+5. [豆包](https://www.doubao.com/)：字节跳动的国产大模型：云雀，语音输入效果较为不错​
+6. [Poe](https://poe.com/)：聚合GPT、Claude 等多个大模型，如果想20刀用多个大模型，可以考虑开poe的会员，但无GPTs等功能​
+7. [跃问](https://stepchat.cn/)：国产大模型，有着不错的图片解析能力，但不具备图片生成能力，长文档审核相对较严；一图就懂功能可以直接把一个文档/链接变成一张长图，功能体验还不错（[一图就懂](https://stepchat.cn/textposter)）​ 
 ###  可以自己搭建机器人​
 
 1. [Coze](https://www.coze.cn/)：可以接入云雀和一系列插件，设计一个自己专属的机器人，是一款简易开发工具​
