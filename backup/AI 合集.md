@@ -2,10 +2,10 @@
 dg-publish: true
 ---
 ###  AI最新
-- [海螺AI—MiniMax 旗下生产力产品，你的AI伙伴](https://hailuoai.com/)
+- [海螺AI](https://hailuoai.com/)
 - [onima](https://onima.oksocool.com/)
 - [AI Search](https://isou.chat/)
-- [⭐ Kimi](https://kimi.moonshot.cn/)
+- [ Kimi](https://kimi.moonshot.cn/)
 
 
 >摘自 https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb
