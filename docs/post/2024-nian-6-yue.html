@@ -11,11 +11,15 @@
     </script>
 <meta name="description" content="> [!NOTE] 
 > ### 6月11日
-> 明天中考，加油！！。">
+> 明天中考，加油！！
+```
+目前可用的几个Docker Hub镜像，可应急使用。">
 <meta property="og:title" content="2024年6月">
 <meta property="og:description" content="> [!NOTE] 
 > ### 6月11日
-> 明天中考，加油！！。">
+> 明天中考，加油！！
+```
+目前可用的几个Docker Hub镜像，可应急使用。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://cqmzgg.github.io/post/2024-nian-6-yue.html">
 <meta property="og:image" content="https://cqmzgg.s3.bitiful.net/logo.svg">
@@ -77,7 +81,18 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
 <h3>6月11日</h3>
 <p>明天中考，加油！！</p>
-</div></div>
+</div>
+<pre class="notranslate"><code class="notranslate">目前可用的几个Docker Hub镜像，可应急使用。
+sudo mkdir -p /etc/docker
+sudo tee
+/etc/docker/daemon.json &lt;&lt;-EOF'
+"registry-mirrors":["https://docker.m.daocloud.io"
+"https://huecker.io""https://dockerhub.timeweb.cloud"
+"https://noohub.ru"
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+</code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
