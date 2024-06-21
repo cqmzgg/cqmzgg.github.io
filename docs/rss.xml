@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Fri, 21 Jun 2024 09:35:51 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>2024年6月</title><link>https://cqmzgg.github.io/post/2024-nian-6-yue.html</link><description>### 6月18日&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Fri, 21 Jun 2024 09:48:34 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>2024年6月</title><link>https://cqmzgg.github.io/post/2024-nian-6-yue.html</link><description>### 6月18日&#13;
 &#13;
 - [出海工具推荐](https://ygpy.net/)&#13;
 - [独立开发者出海工具箱](https://indiehackertools.net/)&#13;
@@ -128,30 +128,7 @@ https://github.com/lhpmain/Bncr_plugins&#13;
 &gt; **集客固件**&#13;
 &gt; [集客固件](http://file.cnrouter.com/index.php/Index/apbeta.html)&#13;
 &#13;
-&#13;
-789X路由  &#13;
-目前支持以下设备：&#13;
-&#13;
-- ABT ASR3000&#13;
-- CETRON CT3003&#13;
-- CMCC A10&#13;
-- CMCC RAX3000M eMMC/NAND&#13;
-- GL-iNet GL-MT6000&#13;
-- H3C Magic NX30 Pro&#13;
-- Imou LC-HX3001&#13;
-- JCG Q30 (Pro) / CMCC MR3000D-CIq&#13;
-- JDCloud RE-CP-03&#13;
-- Nokia EA0326GMP&#13;
-- Qihoo 360T7&#13;
-- Ruijie RG-X60 Pro&#13;
-- TP-Link TL-XDR4288/6086/6088&#13;
-- Xiaomi Mi Router AX3000T&#13;
-- Xiaomi Mi Router WR30U&#13;
-- Xiaomi Redmi Router AX6000  &#13;
-    下载地址：[https://drive.wrt.moe/uboot/mediatek](https://drive.wrt.moe/uboot/mediatek)&#13;
-&#13;
-&gt; 摘至 [联发科Filogic820/830等ARM架构方案（MT7986/7981/7622）路由器列表-无线路由器硬件改造以及故障维修-恩山无线论坛](https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8304371&amp;highlight=7986)&#13;
-联发科用MT7621辉煌了很久，但是毕竟MIPS架构，又这么多年了，未来一定是ARM架构的天下了，非专业大胆分析一下，说的不对的大家可以指正。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/lu-you-qi.html</guid><pubDate>Sun, 14 Apr 2024 09:51:44 +0000</pubDate></item><item><title>播放源</title><link>https://cqmzgg.github.io/post/bo-fang-yuan.html</link><description>[https://live.fanmingming.com/player/?vurl=](https://live.fanmingming.com/player/?vurl=)
+[OpenWrt固件，肯定自己编译的好，推荐几个常关注的。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/lu-you-qi.html</guid><pubDate>Sun, 14 Apr 2024 09:51:44 +0000</pubDate></item><item><title>播放源</title><link>https://cqmzgg.github.io/post/bo-fang-yuan.html</link><description>[https://live.fanmingming.com/player/?vurl=](https://live.fanmingming.com/player/?vurl=)
 [https://m3u8-player.com/](https://m3u8-player.com/)
 ### Tvbox 源&#13;
 1. `https://gitee.com/hailin886/fty/raw/master/tvbox/aishang.json`&#13;
