@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Mon, 22 Jul 2024 03:40:12 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>办公小软</title><link>https://cqmzgg.github.io/post/ban-gong-xiao-ruan.html</link><description>#### 硬件打印&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Mon, 22 Jul 2024 03:40:55 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>办公小软</title><link>https://cqmzgg.github.io/post/ban-gong-xiao-ruan.html</link><description>#### 硬件打印&#13;
 **Epson L130-220-310-360-365 清零软件**&#13;
 [L130清零软件](https://cqmzgg.lanzn.com/iF1nH24xxpwf)。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/ban-gong-xiao-ruan.html</guid><pubDate>Fri, 19 Jul 2024 06:29:42 +0000</pubDate></item><item><title>2024年7月</title><link>https://cqmzgg.github.io/post/2024-nian-7-yue.html</link><description>###  7月22日&#13;
 - #### Docker 一键安装脚本&#13;
 ```&#13;
 bash &lt;(curl -sSL `https://linuxmirrors.cn/docker.sh)&#13;
 ```&#13;
-- #### Cairo&#13;
-     一个开源 Windows 桌面环境替代方案    [Cairo](https://github.com/cairoshell/cairoshell)&#13;
+- #### [Cairo](https://github.com/cairoshell/cairoshell)&#13;
+     一个开源 Windows 桌面环境替代方案    &#13;
 &#13;
 ### 7月16日&#13;
 ####  [SaltyLeo 的书架](https://book.tstrs.me/search) 聚合搜索全网电子书&#13;
