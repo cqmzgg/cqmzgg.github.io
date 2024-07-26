@@ -6,6 +6,8 @@ dg-publish: true
 - [onima](https://onima.oksocool.com/)
 - [AI Search](https://isou.chat/)
 - [ Kimi](https://kimi.moonshot.cn/)
+- [deepseek](https://chat.deepseek.com/)
+- 
 
 
 >摘自 https://t16jzwqrzjx.feishu.cn/wiki/EsvowFAqFiTiYDkJgE0cWquPnWb
