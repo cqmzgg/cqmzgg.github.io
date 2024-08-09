@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Thu, 08 Aug 2024 10:01:22 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>调岗降薪的处理方法</title><link>https://cqmzgg.github.io/post/diao-gang-jiang-xin-de-chu-li-fang-fa.html</link><description>### 1.遇调岗降薪的处理方法&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Fri, 09 Aug 2024 01:22:49 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>调岗降薪的处理方法</title><link>https://cqmzgg.github.io/post/diao-gang-jiang-xin-de-chu-li-fang-fa.html</link><description>### 1.遇调岗降薪的处理方法&#13;
 &#13;
 分析调岗的合理性&#13;
 #### ①除非是的确不能胜任现有工作,否则即便公司对你调岗是合理方法的,也不能随意降低你的薪资待遇&#13;
@@ -623,9 +623,15 @@ markdown 编辑器[bluenote](https://www.bluemd.me/)&#13;
 ### Linux&#13;
 - [一键换源](https://linuxmirrors.cn/)&#13;
 - [linux常用命令](https://wangchujiang.com/linux-command/hot.html)&#13;
-- &#13;
-&#13;
-&lt;!-- ##{'timestamp':1702358859}## --&gt;。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/wang-zhan.html</guid><pubDate>Tue, 12 Dec 2023 05:27:39 +0000</pubDate></item><item><title>关于</title><link>https://cqmzgg.github.io/about.html</link><description>### 码字日记&#13;
+#### 开源镜像站列表&#13;
+**企业站**&#13;
+1. 网易开源镜像站：http://mirrors.163.com/&#13;
+2. 阿里云：http://mirrors.aliyun.com/ https://opsx.alibaba.com/mirror&#13;
+3. 华为开源镜像站：https://mirrors.huaweicloud.com/ 华为开源镜像站由华为云DevCloud团队开发及维护&#13;
+4. 首都在线科技股份有限公司（英文名Capital Online Data Service）：http://mirrors.yun-idc.com/&#13;
+ **教育站**&#13;
+1. 清华大学：https://mirrors.tuna.tsinghua.edu.cn/   zabbix,alpine,apache,eclipse,gentoo,kali,mariadb，mysql,mongodb,openresty,openwrt&#13;
+2. 中国科技大学：http://mirrors.ustc.edu.cn/ 目前是中国大陆高校访问量最大，收录最全的开源软件镜像。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/wang-zhan.html</guid><pubDate>Tue, 12 Dec 2023 05:27:39 +0000</pubDate></item><item><title>关于</title><link>https://cqmzgg.github.io/about.html</link><description>### 码字日记&#13;
 ### 邮箱：cqmzgg@126.com&#13;
 &gt; [!NOTE]&#13;
 &gt; Useful information that users should know, even when skimming content.&#13;
