@@ -1,19 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Mon, 19 Aug 2024 06:39:59 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>2024年8月</title><link>https://cqmzgg.github.io/post/2024-nian-8-yue.html</link><description>#### 8月19日&#13;
-- [开源汇总-自托管精选](https://github.com/zituoguan/zituoguan)&#13;
-- [优秀的开源项目](https://github.com/chenyl8848/great-open-source-project)&#13;
-&#13;
-#### 8月12日&#13;
-- [时光图书馆](https://atimebook.com/)&#13;
-- [克隆你的声音](https://kevinwang676-cosyvoice-talktalkai.hf.space/)&#13;
-#### 8月11日&#13;
-- [Prompt学习指南](https://prompt-guide.xiniushu.com/)&#13;
-&#13;
-#### 8月9日&#13;
-- [大同搜索](https://datong.info/)&#13;
-- [火哥分享](https://www.firepx.com/app/)&#13;
-- #工具 [Rico's cheatsheets](https://devhints.io/)&#13;
-- #工具 [Quick Reference](https://quickref.me/)。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/2024-nian-8-yue.html</guid><pubDate>Fri, 09 Aug 2024 04:47:39 +0000</pubDate></item><item><title>调岗降薪的处理方法</title><link>https://cqmzgg.github.io/post/diao-gang-jiang-xin-de-chu-li-fang-fa.html</link><description>### 1.遇调岗降薪的处理方法&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>码字日记</title><link>https://cqmzgg.github.io</link><description>不要假装努力，结果不会陪你演戏。</description><copyright>码字日记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cqmzgg.s3.bitiful.net/logo.svg</url><title>avatar</title><link>https://cqmzgg.github.io</link></image><lastBuildDate>Thu, 22 Aug 2024 08:42:03 +0000</lastBuildDate><managingEditor>码字日记</managingEditor><ttl>60</ttl><webMaster>码字日记</webMaster><item><title>2024年8月</title><link>https://cqmzgg.github.io/post/2024-nian-8-yue.html</link><description>####8月22日&#13;
+pve的节点状态守护程序为 pvestatd。</description><guid isPermaLink="true">https://cqmzgg.github.io/post/2024-nian-8-yue.html</guid><pubDate>Fri, 09 Aug 2024 04:47:39 +0000</pubDate></item><item><title>调岗降薪的处理方法</title><link>https://cqmzgg.github.io/post/diao-gang-jiang-xin-de-chu-li-fang-fa.html</link><description>### 1.遇调岗降薪的处理方法&#13;
 &#13;
 分析调岗的合理性&#13;
 #### ①除非是的确不能胜任现有工作,否则即便公司对你调岗是合理方法的,也不能随意降低你的薪资待遇&#13;
