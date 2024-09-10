@@ -7,6 +7,7 @@ dg-publish: true
 - [AI Search](https://isou.chat/)
 - [ Kimi](https://kimi.moonshot.cn/)
 - [deepseek](https://chat.deepseek.com/)
+- [ollama3](https://ollama.fan/models/featured/llama3/)
 - 
 
 
