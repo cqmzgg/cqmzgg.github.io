@@ -2,6 +2,7 @@
 dg-publish: true
 ---
 ###  AI最新
+- [c站](https://civitai.com/)
 - [海螺AI](https://hailuoai.com/)
 - [onima](https://onima.oksocool.com/)
 - [AI Search](https://isou.chat/)
