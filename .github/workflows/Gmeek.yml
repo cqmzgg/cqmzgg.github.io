@@ -1,4 +1,4 @@
-# 全局并发统一管控整个工作流，build+deploy共用分组，新任务直接取消旧任务
+# 全局并发，新任务自动干掉旧排队任务
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -36,7 +36,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.8
+          python-version: "3.11"
 
       - name: Clone source code
         run: |
@@ -76,13 +76,14 @@ jobs:
           
   deploy:
     name: Deploy blog
-    runs-on: ubuntu-20.04
+    # 关键修改1：淘汰ubuntu-20.04，换成latest
+    runs-on: ubuntu-latest
     needs: build
     permissions:
       contents: write
       pages: write
       id-token: write
-    # 删除deploy内部单独的concurrency，统一使用文件最顶部全局并发配置
+    # 关键修改2：彻底删除deploy内部单独的concurrency块
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
