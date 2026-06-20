@@ -1,6 +1,8 @@
+# 全局并发统一管控整个工作流，build+deploy共用分组，新任务直接取消旧任务
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+
 name: build Gmeek
 
 on:
@@ -26,9 +28,9 @@ jobs:
 
       - name: Get config.json
         run: |
-          echo "====== check config.josn file ======"
+          echo "====== check config.json file ======"
           cat config.json
-          echo "====== check config.josn end  ======"
+          echo "====== check config.json end  ======"
           sudo apt-get install jq
 
       - name: Set up Python
@@ -42,7 +44,7 @@ jobs:
           git clone https://github.com/Meekdai/Gmeek.git /opt/Gmeek;
           cd /opt/Gmeek/
           lastTag=$(git describe --tags `git rev-list --tags --max-count=1`)
-          if [ $GMEEK_VERSION == 'last' ]; then git checkout $lastTag; else git checkout $GMEEK_VERSION; fi;
+          if [ "$GMEEK_VERSION" == 'last' ]; then git checkout $lastTag; else git checkout "$GMEEK_VERSION"; fi;
 
       - name: Install dependencies
         run: |
@@ -80,9 +82,7 @@ jobs:
       contents: write
       pages: write
       id-token: write
-    concurrency:
-      group: "pages"
-      cancel-in-progress: false
+    # 删除deploy内部单独的concurrency，统一使用文件最顶部全局并发配置
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
