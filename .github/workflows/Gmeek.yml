@@ -1,4 +1,4 @@
-# 全局并发，新任务自动干掉旧排队任务
+# 全局唯一并发控制，覆盖build+deploy整套流程
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -21,23 +21,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-
       - name: Get config.json
         run: |
           echo "====== check config.json file ======"
           cat config.json
           echo "====== check config.json end  ======"
           sudo apt-get install jq
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Clone source code
         run: |
           GMEEK_VERSION=$(jq -r ".GMEEK_VERSION" config.json)
@@ -45,12 +41,10 @@ jobs:
           cd /opt/Gmeek/
           lastTag=$(git describe --tags `git rev-list --tags --max-count=1`)
           if [ "$GMEEK_VERSION" == 'last' ]; then git checkout $lastTag; else git checkout "$GMEEK_VERSION"; fi;
-
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install -r /opt/Gmeek/requirements.txt
-
       - name: Generate new html
         run: |
           cp -r ./* /opt/Gmeek/
@@ -59,7 +53,6 @@ jobs:
           cp -a /opt/Gmeek/docs ${{ github.workspace }} 
           cp -a /opt/Gmeek/backup ${{ github.workspace }} 
           cp /opt/Gmeek/blogBase.json ${{ github.workspace }} 
-          
       - name: update html
         run: |
           git config --local user.email "$(jq -r ".email" config.json)"
@@ -68,7 +61,6 @@ jobs:
           git commit -a -m '🎉auto update by Gmeek action' || echo "nothing to commit"
           git push || echo "nothing to push"
           sleep 3
-          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -76,14 +68,12 @@ jobs:
           
   deploy:
     name: Deploy blog
-    # 关键修改1：淘汰ubuntu-20.04，换成latest
     runs-on: ubuntu-latest
     needs: build
     permissions:
-      contents: write
+      contents: read
       pages: write
       id-token: write
-    # 关键修改2：彻底删除deploy内部单独的concurrency块
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
