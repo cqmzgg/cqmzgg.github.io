@@ -1,0 +1,348 @@
+body {max-width: initial !important;}/*不限制页面大小*/
+a.blogTitle {display: inline-block !important;}/*优化手机端不显示博客顶部LOGO文字*/
+.d-flex {display: inline-block !important;}/*调节文章标签到文章下*/
+/*.Label, .label {line-height: 12px !important;}文章标签背景颜色框缩小一点*/
+.LabelTime {display: inline-block !important;}/*调节文章标签到手机显示不全或者不显示后面的日期*/
+/*.markdown-body img { height: auto;  width: 50%;}文章图片限制大小*/
+.listTitle {white-space: normal !important;}/*修改上面后导致首页文章标题太长手机太小文字会超溢出不会换行*/
+.markdown-body code {background-color: #ea9a9a;}/*小代码块背景颜色*/
+.lb-lightbox-image{width: 45%;}/*文章图片灯箱大小*/
+
+/*去除顶部图标间距太大了*/
+.title-right .circle {margin-right: 0px !important;}
+
+
+/* 1. 只给文章列表页的标签容器加顶部间距（拉开标签标题距离） */
+.listLabels {
+    margin-top: 12px !important;
+}
+
+/* 2. 只有在列表容器里的标签，才应用微小的底部正边距，防止标签换行打架 */
+.listLabels .Label, 
+.listLabels .LabelName, 
+.listLabels .LabelTime {
+    margin-bottom: 4px !important; 
+}
+
+/* 3. 针对文章列表项整体缩减底部内边距（标题下标签的底部距离缩小），从视觉上把整体往上提，不用负数 margin */
+.SideNav-item {
+    padding-bottom: 1px !important;
+}
+
+/* 4. 单独强制标签云保持默认或自己喜欢的样式，互不干扰 */
+#taglabel .Label {
+    margin-bottom: 6px !important; /* 标签云建议留大一点，方便手指点击 */
+}
+
+
+
+
+/* 针对首页内容区顶部的描述文字（个性签名）进行换行处理，从配置文件（config.json）里面的/n来换行文字 */
+#content > div[style*="margin-bottom: 16px"] {
+    white-space: pre-wrap !important;
+}
+
+
+
+
+/*图片获取焦点抖动*/
+@-moz-keyframes tada{
+    0%{-moz-transform:scale(1);}
+    10%,20%{-moz-transform:scale(0.9) rotate(-3deg);}
+    30%,50%,70%,90%{-moz-transform:scale(1.2) rotate(3deg);}
+    40%,60%,80%{-moz-transform:scale(1.2) rotate(-3deg);}
+    100%{-moz-transform:scale(1) rotate(0);}
+   }
+
+  @-webkit-keyframes tada{
+    0%{-webkit-transform:scale(1);}
+    10%,20%{-webkit-transform:scale(0.9) rotate(-3deg);}
+    30%,50%,70%,90%{-webkit-transform:scale(1.2) rotate(3deg);}
+    40%,60%,80%{-webkit-transform:scale(1.2) rotate(-3deg);}
+    100%{-webkit-transform:scale(1) rotate(0);}}
+
+.markdown-body img:hover{
+  -webkit-animation: tada 1s .2s ease both;
+  -moz-animation: tada 1s .2s ease both;
+}
+
+/*文章代码高亮块边框*/
+.markdown-body pre {border: 1px solid #cdcaca}
+
+
+
+/*友情链接获取焦点显示标题*/
+
+/* 让 .card-wrap 作为定位祖先（用于限制提示框宽度） */
+.card-wrap {
+    position: relative !important;
+}
+
+/* 移除链接自身的相对定位，让提示框相对于 .card-wrap 定位 */
+#postBody a.tooltip-link {
+  position: static !important;
+}
+
+/* 提示框样式：保留原有视觉效果，但覆盖定位和宽度等关键属性 */
+#postBody a.tooltip-link::after {
+  /* 原有内容与基础样式 */
+  content: attr(data-title);
+  position: absolute;
+  top: 100%;
+  margin-top: 6px;
+  background: #333;
+  color: #fff;
+  padding: 0px 5px;
+  border-radius: 4px;
+  font-size: 13px;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s;
+  line-height: 1.5;
+
+  /* 关键覆盖（来自 F12 有效代码，带 !important） */
+  left: 0 !important;
+  right: auto !important;
+  width: max-content !important;      /* 短文字背景不浪费 */
+  max-width: 100% !important;         /* 最长不超过父卡片宽度，永不右侧溢出 */
+  white-space: normal !important;
+  word-break: break-word !important;
+  box-sizing: border-box !important;
+}
+
+/* 显示提示框 */
+#postBody a.tooltip-link:hover::after,
+#postBody a.tooltip-link:focus::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+/*代码高亮*/
+
+/* =============== Prism 高亮终极兼容补丁（适配 Gmeek + zdy.css） =============== */
+/* 👇 强制容器行为 */
+pre[class*="language-"] {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  /*电脑页面内容没有溢出也显示上下拉坚条overflow-x: auto !important;*/
+  -webkit-overflow-scrolling: touch !important;
+  /*padding-left: 3.5em !important;这个不需要不然代码行号前面会留白*/
+  margin: 0 !important;
+  word-break: normal !important;
+}
+
+/* 👇 强制代码内容不撑宽 */
+pre[class*="language-"] code {
+  display: block !important;
+  white-space: pre !important;
+  overflow-x: auto !important;
+  text-align: left !important;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace !important;
+}
+
+/* 👇 清除 Prism 内联 span 的干扰 */
+pre[class*="language-"] code * {
+  white-space: inherit !important;
+  display: inline !important;
+}
+
+/* 👇 移动端防缩放 & 字体加固 */
+@media (max-width: 768px) {
+  pre[class*="language-"] {
+    font-size: 0.875rem !important;
+  }
+  pre[class*="language-"] code {
+    font-size: 0.95em !important;
+  }
+  pre[class*="language-"] code::before,
+  pre[class*="language-"] code::after {
+    content: none !important;
+  }
+}
+
+/*代码高亮右上角copy修改成中文复制*/
+/* 隐藏原来的文字，注入新文字 */
+/* 精简版：只负责中文显示、居中和基础划过变色 */
+.code-toolbar .toolbar-item a {
+    color: transparent !important;
+    position: relative;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px; /* 宽度够放“复制”二字即可 */
+    text-decoration: none !important;
+}
+
+.code-toolbar .toolbar-item a::before {
+    content: "复制";
+    color: #999; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    white-space: nowrap;
+    transition: color 0.2s;
+}
+
+/* 划过变色，让用户知道这是个能点的按钮 */
+.code-toolbar .toolbar-item a:hover::before {
+    color: #666 !important; 
+}
+
+
+
+/* 1. 选中标签定义呼吸动画得搭配原来的选中标签去除样式变小的那个js */
+/* 1. 呼吸动画 */
+@keyframes tagBreath {
+    0% {
+        box-shadow: 0 0 5px rgba(2, 122, 255, 0.2);
+        transform: scale(1);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(2, 122, 255, 0.6);
+        transform: scale(1.1); /* 既然 padding 没了，缩放稍微大一点补偿视觉 */
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(2, 122, 255, 0.2);
+        transform: scale(1);
+    }
+}
+
+/* 2. 核心：只抓取被 JS 设置了 padding 为 0 的标签 */
+/* 适配可能出现的不同写法：padding: 0, padding: 0px, padding:0 */
+.Label[style*="padding: 0"],
+.Label[style*="padding:0"],
+.Label[style*="padding: 0px"] {
+    animation: tagBreath 1.5s linear infinite !important;
+    display: inline-block !important;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+
+
+/*文章列表获取焦点悬浮显示别的颜色区分*/
+
+/* 文章条目流金悬浮效果 */
+/* 文章条目：纯静态金黄色悬浮（无发黑感） */
+.SideNav-item {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    border-left: 3px solid transparent !important;
+    background-color: transparent !important;
+    border-radius: 6px !important;
+    margin-bottom: 4px !important;
+}
+
+.SideNav-item:hover {
+    /* 使用亮金(#f1c40f)与黄金(#ffd700)组合，杜绝发黑 */
+    background: linear-gradient(90deg, #f1c40f, #ffd700, #f1c40f) !important;
+    
+    /* 动作保留 */
+    transform: translateX(5px) !important;
+    border-left: 3px solid #027aff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+
+
+
+
+
+
+/*添加js根据标签背景颜色更改标签字体颜色后，标签太多右边溢出修补*/
+
+/* 版本一：全局换行补丁 */
+.listLabels {
+    white-space: normal !important;
+    flex-wrap: wrap !important;
+    display: flex !important;
+}
+
+
+
+
+
+
+
+
+/*顶部悬浮水晶透明*/
+/* --- A 线程：水晶悬浮全屏版 (分割线质感增强) --- */
+#header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    min-height: 65px !important;
+    height: auto !important;
+    /* 保持 0.12 底色，提供水晶物质感 */
+    background: rgba(255, 255, 255, 0.5) !important;
+    /* 彻底移除毛玻璃，确保绝对通透 */
+    /*蓝绿色渐变background: -webkit-linear-gradient(#498545, #0fc7fe);*/
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    padding-left: 12px !important;
+    padding-bottom: 0 !important;
+    /* 分割线提亮：由 0.03 上调至 0.06，增强悬浮边界感 */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+    z-index: 9999 !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+/* 黑暗模式：同步增强边缘线 */
+[data-color-mode='dark'] #header {
+    background: rgba(34, 39, 46, 0.15) !important;
+    border-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* 标题全屏布局逻辑 */
+.blogTitle, .postTitle {
+    display: block !important;
+    font-size: clamp(18px, 5vw, 24px) !important;
+    font-weight: bold !important;
+    color: #24292f !important;
+    text-decoration: none !important;
+    word-break: break-all !important;
+    line-height: 1.3 !important;
+    margin: 0 !important;
+    flex: 1 !important;
+    /*让文章标题显示更多一点padding-right: 15px !important;*/
+}
+
+[data-color-mode='dark'] .blogTitle, [data-color-mode='dark'] .postTitle {
+    color: #adbac7 !important;
+}
+
+/*去除顶部图标间距太大了.title-right {
+    display: flex !important;
+    gap: 12px !important;
+    flex-shrink: 0 !important;
+    z-index: 10000 !important;
+}*/
+
+/* 正文避让间距 */
+#content, .main {
+    margin: 55px auto 0 auto !important;
+    /*padding: 0 20px !important;正文空白两边边距太大了*/
+    width: auto !important;
+    max-width: none !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/* 隐藏副标题及冗余图标 */
+.subTitle, .SideNav-icon { display: none !important; }
+
+
+

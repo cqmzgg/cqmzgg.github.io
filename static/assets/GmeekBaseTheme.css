@@ -1,0 +1,61 @@
+/* 🍏 Gmeek Apple 风格基础布局与排版样式 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", sans-serif;
+  background: transparent;
+  color: inherit;
+  max-width: max-width: initial !important;/*960px;*/
+  margin: auto;
+  padding: 24px;
+  line-height: 1.6;
+  transition: background 0.3s ease;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.post-tag {
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-weight: 500;
+  margin-right: 6px;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.post-summary {
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+.SideNav {
+  border-radius:20px;
+}
